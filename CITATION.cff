@@ -1,0 +1,70 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Integrating transcriptomics and molecular AOPs to identify
+  T3-dependent regulation of neuronal development in the
+  human neural progenitor test
+message: >-
+  If you use this software or data, please cite it using the
+  metadata from this file.
+type: dataset
+authors:
+  - given-names: Marvin
+    family-names: Martens
+    orcid: 'https://orcid.org/0000-0003-2230-0840'
+    affiliation: Maastricht University
+  - given-names: Nathalie T.O.M.
+    family-names: Dierichs
+    orcid: 'https://orcid.org/0009-0000-5074-6239'
+    affiliation: RIVM & Erasmus MC
+  - given-names: Jeroen L.A.
+    family-names: Pennings
+    orcid: 'https://orcid.org/0000-0002-9188-6358'
+    affiliation: RIVM
+  - given-names: Aldert H.
+    family-names: Piersma
+    affiliation: RIVM & Utrecht University
+  - given-names: Victoria C.
+    family-names: de Leeuw
+    orcid: 'https://orcid.org/0000-0002-3239-2227'
+    affiliation: RIVM
+  - given-names: Conny T.M.
+    family-names: van Oostrom
+    affiliation: RIVM
+  - given-names: Celina
+    family-names: Malyar
+    orcid: 'https://orcid.org/0009-0005-9197-4107'
+    affiliation: Maastricht University
+  - given-names: Anne S.
+    family-names: Kienhuis
+    orcid: 'https://orcid.org/0000-0002-6465-4498'
+    affiliation: RIVM & Utrecht University
+  - given-names: Chris T.
+    family-names: Evelo
+    orcid: 'https://orcid.org/0000-0002-5301-3142'
+    affiliation: Maastricht University
+  - given-names: Egon L.
+    family-names: Willighagen
+    orcid: 'https://orcid.org/0000-0001-7542-0286'
+    affiliation: Maastricht University
+  - given-names: Ellen V.S.
+    family-names: Hessel
+    orcid: 'https://orcid.org/0000-0003-3960-7523'
+    affiliation: RIVM
+repository-code: 'https://github.com/marvinm2/thyroid-aop-omics'
+abstract: >-
+  Differential gene expression analysis of thyroid hormone
+  (T3) effects for Adverse Outcome Pathway (AOP) research.
+  This study compares hypothyroid (no T3 vs control) and
+  hyperthyroid (high T3 vs control) conditions to identify
+  gene regulation patterns relevant to thyroid hormone
+  disruption.
+keywords:
+  - thyroid hormone
+  - adverse outcome pathway
+  - transcriptomics
+  - differential gene expression
+  - neurodevelopment
+license: CC-BY-4.0

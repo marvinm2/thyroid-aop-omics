@@ -1,5 +1,7 @@
 # Thyroid AOP Omics Analysis
 
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+
 Differential gene expression analysis of thyroid hormone (T3) effects for Adverse Outcome Pathway (AOP) research. This study compares hypothyroid (no T3 vs control) and hyperthyroid (high T3 vs control) conditions to identify gene regulation patterns relevant to thyroid hormone disruption.
 
 ## Data Availability
@@ -99,7 +101,9 @@ ClueGO pathway enrichment was performed using the Cytoscape GUI. See [`cluego/RE
 
 If you use this data or analysis, please cite:
 
-> [Authors]. [Paper Title]. [Journal], [Year]. DOI: [DOI]
+> Martens M, Dierichs NTOM, Pennings JLA, Piersma AH, de Leeuw VC, van Oostrom CTM, Malyar C, Kienhuis AS, Evelo CT, Willighagen EL, Hessel EVS. Integrating transcriptomics and molecular AOPs to identify T3-dependent regulation of neuronal development in the human neural progenitor test. [Journal], [Year]. DOI: [DOI]
+
+A machine-readable citation file ([CITATION.cff](CITATION.cff)) is also available.
 
 ## License
 
