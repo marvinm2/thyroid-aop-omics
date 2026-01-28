@@ -1,0 +1,179 @@
+Selection Citeria:
+Statistical Test Used = Enrichment/Depletion (Two-sided hypergeometric test)
+Use pvalue cutoff = true
+pvalue cutoff = 0.05000000074505806
+Correction Method Used = Bonferroni step down
+Min GO Level = 6
+Max GO Level = 15
+Cluster #1
+Sample File Name = File selection: ManuallyAddedOrModifiedIDs
+Number of Genes = 3
+Min Percentage = 4.0
+
+Cluster #2
+Sample File Name = File selection: ManuallyAddedOrModifiedIDs
+Number of Genes = 3
+Min Percentage = 4.0
+
+Combine Clusters With 'Or' = true
+Percentage for a Cluster to be Specific = 60.0
+GO Fusion = true
+GO Group = true
+Kappa Score Threshold = 0.4
+Over View Term = SmallestPValue
+Group By Kappa Statistics = true
+Initial Group Size = 1
+Sharing Group Percentage = 50.0
+
+ClueGO Log:
+### All results were created with ClueGO v2.5.10 ###
+Organism analyzed: Homo Sapiens [9606]
+Identifier types used: [SymbolID]
+Evidence codes used: [All]
+#Genes in GO_BiologicalProcess-EBI-UniProt-GOA-ACAP-ARAP_16.03.2025_00h00 : 17991
+
+#All unique genes in selected ontologies: 17991 (reference set for hypergeometric test)
+
+#Genes from Cluster#1: unique uploaded ids 1497 -> corresponding genes 1427, with 70 (4.68%) missing  -> 1427 recognized by ClueGO.
+#Genes from Cluster#2: unique uploaded ids 1497 -> corresponding genes 1459, with 38 (2.54%) missing  -> 1459 recognized by ClueGO.
+ -> To improve the % of found genes, verify gene identifiers, download new available ClueGO conversion files or add/request additional files.
+
+#Genes with functional annotations in all selected Ontologies from Cluster#1: 1227 (85.98%) -> 200 (14.02%) are not functionally annotated in any selected Ontology!
+#Genes with functional annotations in all selected Ontologies from Cluster#2: 1350 (92.53%) -> 109 (7.47%) are not functionally annotated in any selected Ontology!
+#Unique genes with functional annotations in all selected ontologies from the 2 Clusters: 2577 (89.29%) -> 309 (10.71%) are not functionally annotated!
+ -> To improve the % of annotated genes, chose additional ontologies.
+
+#Genes from all Clusters associated to 3815 representative Terms and Pathways (after applying general selection criteria): 2466 (85.45%)
+#Genes from all Clusters associated to 2888 representative Terms and Pathways (after fusion selection criteria): 2436 (84.41%)
+#Genes from all Clusters associated to 108 representative Terms and Pathways (after p-value significance selection criteria): 1780 (61.68%)
+
+KappaScore Grouping:
+Iteration: 0 with 32 groups
+Iteration: 1 with 27 groups
+Iteration: 2 with 25 groups
+Final KappaScore groups  = 25
+# Terms not grouped  = 0
+
+# Merge redundant groups with >50.0% overlap
+Final group size after merging: 25
+
+#GO All Terms Specific for Cluster #1: 28
+#GO All Terms Specific for Cluster #2: 25
+#GO All Terms not Specific for a Cluster: 55
+#GO Terms: 108
+#GO Term Connections: 243
+List of missing Genes -> make sure the ids exists or are written propperly -> if yes make sure you have their annotation in ClueGO!
+Cluster #1
+Gene IDs not found (no annotation or wrong ids) in Cluster#1:
+AC004540.1
+AC004771.2
+AC004947.2
+AC005224.4
+AC005537.1
+AC005863.1
+AC007191.1
+AC007614.1
+AC008060.1
+AC008060.4
+AC008969.1
+AC009533.1
+AC010618.1
+AC010729.1
+AC010931.2
+AC010980.2
+AC011529.1
+AC019080.1
+AC021127.1
+AC021205.3
+AC021504.1
+AC024337.2
+AC024940.2
+AC025164.1
+AC060780.1
+AC068888.1
+AC078846.1
+AC079834.2
+AC083843.3
+AC084859.1
+AC091138.1
+AC092645.1
+AC092807.3
+AC093157.1
+AC097534.2
+AC099489.1
+AC100810.1
+AC106038.1
+AC106818.1
+AC110716.2
+AC118754.1
+AC124319.1
+AC127496.5
+AC132938.5
+AC137767.1
+AC138904.1
+AC139769.1
+AC156455.1
+AC233296.1
+AL021368.2
+AL021707.2
+AL118506.1
+AL139246.5
+AL160006.1
+AL353150.1
+AL353593.2
+AL358473.1
+AL359091.1
+AL390728.4
+AL513523.2
+AL592148.3
+AP001172.1
+AP002026.1
+AP002956.1
+AP004608.1
+MT-RNR1
+MT-TT
+Sep-06
+Sep-09
+Sep-11
+
+Cluster #2
+Gene IDs not found (no annotation or wrong ids) in Cluster#2:
+AC004475.1
+AC005332.5
+AC006058.1
+AC006538.1
+AC010422.8
+AC015813.6
+AC021092.1
+AC021739.2
+AC079922.2
+AC093323.1
+AC102953.2
+AC103974.1
+AC110285.2
+AC135048.4
+AL121827.2
+AL161910.1
+AL162171.1
+AL592424.1
+AL606970.1
+AL645608.7
+AP001062.1
+AP001992.1
+AP003068.4
+AP006623.1
+BX255925.3
+MT-ATP6
+MT-ATP8
+MT-CO1
+MT-CO3
+MT-CYB
+MT-ND1
+MT-ND2
+MT-ND3
+MT-ND4
+MT-ND4L
+MT-ND5
+MT-ND6
+Z97832.2
+

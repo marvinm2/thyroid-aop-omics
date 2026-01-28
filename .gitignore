@@ -1,0 +1,52 @@
+# Raw data (available from EBI BioStudies)
+T3_expression_data.csv
+T3_expression_data.xlsx
+
+# GPML pathway files (downloadable from WikiPathways)
+*.gpml
+
+# PathVisio database files (too large)
+*.pgex
+
+# Large XGMML files (downloadable from WikiPathways)
+wikipathways_*.xgmml
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+**/logs/
+*.log
+*.log.*
+
+# Temporary files
+*.tmp
+*.temp

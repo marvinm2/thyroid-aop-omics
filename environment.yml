@@ -1,0 +1,19 @@
+name: thyroid-aop
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - scipy
+  - matplotlib
+  - jupyter
+  - pip
+  - pip:
+    - matplotlib-venn
+    - py4cytoscape
+    - networkx
+    - python-igraph
+    - requests
+    - chardet

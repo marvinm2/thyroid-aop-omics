@@ -1,0 +1,110 @@
+# Thyroid AOP Omics Analysis
+
+Differential gene expression analysis of thyroid hormone (T3) effects for Adverse Outcome Pathway (AOP) research. This study compares hypothyroid (no T3 vs control) and hyperthyroid (high T3 vs control) conditions to identify gene regulation patterns relevant to thyroid hormone disruption.
+
+## Data Availability
+
+Raw expression data is available at EBI BioStudies:
+- **Accession**: [S-VHPS20](https://www.ebi.ac.uk/biostudies/vhp4safety/studies/S-VHPS20)
+
+## Analysis Workflow
+
+Execute notebooks in numerical order:
+
+| Step | Notebook | Description |
+|------|----------|-------------|
+| 1 | `01_T3dataHandling.ipynb` | Preprocesses raw expression data, calculates log2FC values |
+| 2 | `02_T3dataAnalysis.ipynb` | Statistical analysis: Venn diagrams, gene overlap, direction analysis |
+| 3 | `03_T3dataClueGO.ipynb` | Prepares data for ClueGO pathway enrichment analysis |
+| 4 | `04_MolAOPcalc.ipynb` | Fisher's exact test for Key Event (KE) enrichment |
+
+## Key Findings
+
+- **3,058** differentially expressed genes (DEGs) identified across conditions
+- **31** genes significantly regulated in both hypo- and hyperthyroid conditions
+- Key Event enrichment analysis identifies pathway components relevant to thyroid AOP
+
+## Repository Structure
+
+```
+thyroid-aop-omics/
+├── notebooks/           # Analysis notebooks (run in order 01-04)
+├── data/
+│   ├── raw/             # Links to EBI BioStudies
+│   ├── processed/       # Preprocessed condition data
+│   └── results/         # DEG lists and enrichment results
+├── figures/
+│   ├── main/            # Main manuscript figures
+│   └── supplementary/   # Supplementary figures
+├── cluego/              # ClueGO pathway analysis results
+├── cytoscape/           # Cytoscape network sessions
+└── pathways/            # WikiPathways GPML files
+```
+
+## Data Files
+
+### Processed Data (`data/processed/`)
+| File | Description |
+|------|-------------|
+| `hypothyroid_condition.csv` | DEG data for no-T3 condition |
+| `hyperthyroid_condition.csv` | DEG data for high-T3 condition |
+| `combined_background.csv` | Merged dataset for combined analysis |
+
+### Results (`data/results/`)
+| File | Description |
+|------|-------------|
+| `all_degs.csv` | All significant DEGs with condition labels (3,058 genes) |
+| `overlapping_degs.csv` | Genes significant in both conditions (31 genes) |
+| `combined_enrichment_results.csv` | Key Event enrichment statistics |
+| `hypo/KE-gene-stats.csv` | KE statistics for hypothyroid condition |
+| `hyper/KE-gene-stats.csv` | KE statistics for hyperthyroid condition |
+
+## Requirements
+
+### Python Dependencies
+
+```bash
+conda env create -f environment.yml
+conda activate thyroid-aop
+```
+
+Or install manually:
+```
+pandas
+numpy
+scipy
+matplotlib
+matplotlib-venn
+py4cytoscape
+networkx
+igraph
+requests
+chardet
+```
+
+### External Software
+
+- **Cytoscape** (v3.9+): Required for MolAOP network visualization and ClueGO analysis
+  - ClueGO plugin (v2.5.10+)
+- **PathVisio**: For pathway visualization (optional)
+
+## ClueGO Analysis
+
+ClueGO pathway enrichment was performed using the Cytoscape GUI. See [`cluego/README.md`](cluego/README.md) for:
+- Complete analysis settings
+- How to reproduce the analysis
+- Cytoscape session files
+
+## Citation
+
+If you use this data or analysis, please cite:
+
+> [Authors]. [Paper Title]. [Journal], [Year]. DOI: [DOI]
+
+## License
+
+This work is licensed under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## Acknowledgments
+
+This research was conducted as part of the [VHP4Safety](https://vhp4safety.nl/) project, which has received funding from the Dutch Research Council (NWO).

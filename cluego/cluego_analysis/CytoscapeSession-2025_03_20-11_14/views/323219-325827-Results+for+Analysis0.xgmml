@@ -1,0 +1,1529 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<graph id="325827" label="325827" cy:view="1" cy:networkId="323219" cy:visualStyle="ClueGOVisualStyleForGroups_0" cy:rendererId="org.cytoscape.ding" cy:documentVersion="3.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cy="http://www.cytoscape.org" xmlns="http://www.cs.rpi.edu/XGMML">
+  <graphics>
+    <att name="NETWORK_EDGE_SELECTION" value="true" type="string" cy:type="String"/>
+    <att name="NETWORK_ANNOTATION_SELECTION" value="false" type="string" cy:type="String"/>
+    <att name="NETWORK_SCALE_FACTOR" value="0.7012152490716145" type="string" cy:type="String"/>
+    <att name="NETWORK_CENTER_Y_LOCATION" value="138.9130615610074" type="string" cy:type="String"/>
+    <att name="NETWORK_CENTER_X_LOCATION" value="-422.61272257226415" type="string" cy:type="String"/>
+    <att name="NETWORK_FORCE_HIGH_DETAIL" value="false" type="string" cy:type="String"/>
+    <att name="NETWORK_NODE_SELECTION" value="true" type="string" cy:type="String"/>
+    <att name="NETWORK_WIDTH" value="2711.0" type="string" cy:type="String"/>
+    <att name="NETWORK_NODE_LABEL_SELECTION" value="false" type="string" cy:type="String"/>
+    <att name="NETWORK_DEPTH" value="0.0" type="string" cy:type="String"/>
+    <att name="NETWORK_CENTER_Z_LOCATION" value="0.0" type="string" cy:type="String"/>
+    <att name="NETWORK_HEIGHT" value="1105.0" type="string" cy:type="String"/>
+    <att name="NETWORK_TITLE" value="" type="string" cy:type="String"/>
+  </graphics>
+  <node id="325903" label="positive%20regulation%20of%20biosynthetic%20process" cy:nodeId="323616">
+    <graphics x="-879.1567304856187" y="-678.7608022799186" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325841" label="epithelial%20tube%20morphogenesis" cy:nodeId="324768">
+    <graphics x="-246.83854609291706" y="825.715475289227" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325927" label="glucose%20catabolic%20process" cy:nodeId="323424">
+    <graphics x="-1027.0157407798124" y="912.0915479882484" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325913" label="chemical%20synaptic%20transmission" cy:nodeId="323520">
+    <graphics x="1.9873802810164136" y="-655.6468121279617" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325847" label="negative%20regulation%20of%20protein%20metabolic%20process" cy:nodeId="324576">
+    <graphics x="-1208.0335920578843" y="-176.4829702486686" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325899" label="regulation%20of%20macromolecule%20biosynthetic%20process" cy:nodeId="323649">
+    <graphics x="-846.0697553879625" y="-370.6907377352409" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325885" label="spinal%20cord%20development" cy:nodeId="323937">
+    <graphics x="-67.3738119099696" y="-36.77144813356654" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325853" label="regulation%20of%20axonogenesis" cy:nodeId="324513">
+    <graphics x="-75.78649122780621" y="360.4754571805306" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_FILL_COLOR" value="#FFFFFF" type="string" cy:type="String"/>
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325845" label="negative%20regulation%20of%20RNA%20metabolic%20process" cy:nodeId="324642">
+    <graphics x="-991.5062483078843" y="-337.84239388605874" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325835" label="ATP-dependent%20protein%20folding%20chaperone" cy:nodeId="324930">
+    <graphics x="-845.1347268180144" y="871.4612333458676" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325933" label="blood%20vessel%20development" cy:nodeId="323394">
+    <graphics x="-531.4154084281221" y="968.8489591759458" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325851" label="regulation%20of%20synapse%20organization" cy:nodeId="324546">
+    <graphics x="126.90503709250629" y="728.4306650052376" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325896" label="positive%20regulation%20of%20macromolecule%20metabolic%20process" cy:nodeId="323715">
+    <graphics x="-944.4060896164781" y="-642.3802175631217" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325840" label="axon%20development" cy:nodeId="324771">
+    <graphics x="305.8324052565688" y="454.13325594762046" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_FILL_COLOR" value="#FFFFFF" type="string" cy:type="String"/>
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325878" label="neuron%20differentiation" cy:nodeId="324003">
+    <graphics x="183.2436601393813" y="225.59491919377524" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325872" label="RNA%20biosynthetic%20process" cy:nodeId="324099">
+    <graphics x="-573.8765943772203" y="-312.39962292811197" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325866" label="positive%20regulation%20of%20nucleobase-containing%20compound%20metabolic%20process" cy:nodeId="324195">
+    <graphics x="-718.23076613015" y="-694.4827871431999" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325926" label="pyruvate%20metabolic%20process" cy:nodeId="323427">
+    <graphics x="-1126.0536436118437" y="602.3317671044593" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325912" label="axonogenesis" cy:nodeId="323523">
+    <graphics x="141.20536057883442" y="628.3387460599251" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_FILL_COLOR" value="#FFFFFF" type="string" cy:type="String"/>
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325876" label="forebrain%20development" cy:nodeId="324036">
+    <graphics x="448.0504419081801" y="-275.36141873499673" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325921" label="rRNA%20processing" cy:nodeId="323460">
+    <graphics x="-598.7997511155015" y="-74.51618863245767" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_FILL_COLOR" value="#FFFFFF" type="string" cy:type="String"/>
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325881" label="hippocampus%20development" cy:nodeId="323973">
+    <graphics x="448.1394197219008" y="-694.4827871431999" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325831" label="regulation%20of%20cell%20junction%20assembly" cy:nodeId="325029">
+    <graphics x="124.62795145866667" y="906.5109035181396" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325875" label="hindbrain%20development" cy:nodeId="324069">
+    <graphics x="81.32496487138923" y="-127.49348173518287" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325869" label="chordate%20embryonic%20development" cy:nodeId="324165">
+    <graphics x="-768.2031555745683" y="518.866350360465" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325932" label="neuron%20migration" cy:nodeId="323397">
+    <graphics x="506.5896566836005" y="255.447726408189" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325890" label="mRNA%20metabolic%20process" cy:nodeId="323814">
+    <graphics x="-493.2463453537828" y="-221.97983456751626" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325859" label="generation%20of%20neurons" cy:nodeId="324390">
+    <graphics x="16.537941145240666" y="246.39865397313315" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_FILL_COLOR" value="#FFFFFF" type="string" cy:type="String"/>
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325911" label="axon%20guidance" cy:nodeId="323526">
+    <graphics x="415.6790620558852" y="686.986420620472" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325884" label="telencephalon%20development" cy:nodeId="323943">
+    <graphics x="641.316826032936" y="-413.3945913424186" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325828" label="regulation%20of%20RNA%20biosynthetic%20process" cy:nodeId="325095">
+    <graphics x="-664.7003095871812" y="-491.71078396937173" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325871" label="gliogenesis" cy:nodeId="324135">
+    <graphics x="98.65671555930317" y="208.65795992711264" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325865" label="positive%20regulation%20of%20transcription%20by%20RNA%20polymerase%20I" cy:nodeId="324231">
+    <graphics x="-871.4990156418687" y="-493.66503811976236" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325868" label="protein%20folding%20chaperone" cy:nodeId="324168">
+    <graphics x="-736.9949296073211" y="825.715475289227" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325860" label="cell%20morphogenesis%20involved%20in%20neuron%20differentiation" cy:nodeId="324360">
+    <graphics x="292.8156646943492" y="544.9413564775551" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_FILL_COLOR" value="#FFFFFF" type="string" cy:type="String"/>
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325931" label="vasculature%20development" cy:nodeId="323400">
+    <graphics x="-346.8385460929169" y="825.715475289227" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325850" label="regulation%20of%20small%20GTPase%20mediated%20signal%20transduction" cy:nodeId="324552">
+    <graphics x="-5.350584333240121" y="-353.1067212881629" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325902" label="negative%20regulation%20of%20signal%20transduction" cy:nodeId="323625">
+    <graphics x="-641.2865656685366" y="652.3726362943826" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325844" label="positive%20regulation%20of%20RNA%20metabolic%20process" cy:nodeId="324681">
+    <graphics x="-764.5859297043687" y="-660.4227285494499" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325886" label="pyridine%20nucleotide%20catabolic%20process" cy:nodeId="323913">
+    <graphics x="-1093.2710966147733" y="691.6336393578773" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325925" label="purine%20nucleotide%20catabolic%20process" cy:nodeId="323433">
+    <graphics x="-1260.8402341880155" y="659.9026823266273" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325858" label="oligodendrocyte%20differentiation" cy:nodeId="324426">
+    <graphics x="391.9286653273696" y="342.0326852689095" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325920" label="RNA%20processing" cy:nodeId="323466">
+    <graphics x="-337.8704450852281" y="-33.24420071741861" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_FILL_COLOR" value="#FFFFFF" type="string" cy:type="String"/>
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325905" label="ribonucleotide%20catabolic%20process" cy:nodeId="323595">
+    <graphics x="-1195.2515348471952" y="648.5345411523109" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325842" label="negative%20regulation%20of%20nervous%20system%20development" cy:nodeId="324747">
+    <graphics x="325.4464494460219" y="76.40873812535483" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325892" label="regulation%20of%20neuron%20projection%20development" cy:nodeId="323787">
+    <graphics x="-46.40781614439757" y="510.25506120899854" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_FILL_COLOR" value="#FFFFFF" type="string" cy:type="String"/>
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325834" label="intracellular%20signaling%20cassette" cy:nodeId="324939">
+    <graphics x="245.3387162038693" y="-307.4425977530066" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325830" label="regulation%20of%20intracellular%20signal%20transduction" cy:nodeId="325035">
+    <graphics x="43.41656654566616" y="-298.09228647370975" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325874" label="neuron%20projection%20development" cy:nodeId="324075">
+    <graphics x="150.86899583274067" y="350.62807558873374" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325867" label="negative%20regulation%20of%20nucleobase-containing%20compound%20metabolic%20process" cy:nodeId="324171">
+    <graphics x="-1007.9641340500718" y="-441.395545016735" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325918" label="regulation%20of%20translation" cy:nodeId="323499">
+    <graphics x="-963.1776960617906" y="-109.66668606898111" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325901" label="glial%20cell%20differentiation" cy:nodeId="323628">
+    <graphics x="240.11366378977868" y="333.764751143544" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325855" label="regulation%20of%20neurogenesis" cy:nodeId="324492">
+    <graphics x="280.01801316672504" y="281.74804781773764" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_FILL_COLOR" value="#FFFFFF" type="string" cy:type="String"/>
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325846" label="regulation%20of%20RNA%20metabolic%20process" cy:nodeId="324588">
+    <graphics x="-739.7185896164781" y="-458.3094625582389" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325894" label="post-transcriptional%20regulation%20of%20gene%20expression" cy:nodeId="323757">
+    <graphics x="-849.7820661789781" y="-202.4796514620475" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325839" label="glycolytic%20process%20through%20fructose-6-phosphate" cy:nodeId="324813">
+    <graphics x="-1128.2357420005155" y="946.6207990868812" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325888" label="regulation%20of%20nucleobase-containing%20compound%20metabolic%20process" cy:nodeId="323853">
+    <graphics x="-692.8268659836656" y="-449.7332677950553" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325897" label="negative%20regulation%20of%20macromolecule%20biosynthetic%20process" cy:nodeId="323694">
+    <graphics x="-1116.1657331711656" y="-322.6565518488578" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325863" label="ADP%20catabolic%20process" cy:nodeId="324270">
+    <graphics x="-1129.2176450766874" y="738.0920171960121" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325917" label="regulation%20of%20translational%20initiation" cy:nodeId="323502">
+    <graphics x="-1006.2001569992906" y="108.82388399937827" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325900" label="regulation%20of%20gene%20expression" cy:nodeId="323631">
+    <graphics x="-812.3356855637437" y="-299.52349568507" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325862" label="nicotinamide%20nucleotide%20metabolic%20process" cy:nodeId="324303">
+    <graphics x="-1054.6635068930937" y="587.9632520898109" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325910" label="central%20nervous%20system%20development" cy:nodeId="323535">
+    <graphics x="462.2612802260512" y="17.645142544300143" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_FILL_COLOR" value="#FFFFFF" type="string" cy:type="String"/>
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325883" label="pallium%20development" cy:nodeId="323952">
+    <graphics x="395.51291673117817" y="-462.88281155726236" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325864" label="ADP%20metabolic%20process" cy:nodeId="324240">
+    <graphics x="-1185.3913053550077" y="742.6111097558265" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325861" label="neuron%20development" cy:nodeId="324336">
+    <graphics x="0.5980607741469157" y="374.45727633336264" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325936" label="RNA%20splicing,%20via%20transesterification%20reactions" cy:nodeId="323376">
+    <graphics x="-225.7889326340562" y="-271.56404019495767" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325907" label="nucleoside%20diphosphate%20metabolic%20process" cy:nodeId="323568">
+    <graphics x="-1285.0869993247343" y="739.7013635857826" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325891" label="RNA%20metabolic%20process" cy:nodeId="323793">
+    <graphics x="-624.0345991379625" y="-262.0751791109733" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325838" label="trans-synaptic%20signaling" cy:nodeId="324849">
+    <graphics x="-129.9124610275773" y="-659.0647808779617" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325887" label="hexose%20catabolic%20process" cy:nodeId="323889">
+    <graphics x="-980.728042034085" y="845.7986784203773" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325930" label="cardiac%20septum%20development" cy:nodeId="323409">
+    <graphics x="-593.9283857576704" y="825.715475289227" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325849" label="nuclear%20export" cy:nodeId="324561">
+    <graphics x="-864.9731647858446" y="674.9825718154491" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325877" label="maturation%20of%20SSU-rRNA" cy:nodeId="324018">
+    <graphics x="-538.3539045578843" y="159.79052828648764" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325924" label="DNA-templated%20transcription" cy:nodeId="323442">
+    <graphics x="-582.1899336106187" y="-461.9721822848014" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325909" label="brain%20development" cy:nodeId="323538">
+    <graphics x="674.6225358718032" y="-111.48666287562173" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325870" label="ribosomal%20small%20subunit%20biogenesis" cy:nodeId="324147">
+    <graphics x="-778.2196272141343" y="131.17520235875327" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325833" label="nucleic%20acid%20biosynthetic%20process" cy:nodeId="324948">
+    <graphics x="-538.4401167160875" y="-356.01691914698404" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325829" label="positive%20regulation%20of%20RNA%20biosynthetic%20process" cy:nodeId="325044">
+    <graphics x="-682.780326677025" y="-674.2876577486686" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325929" label="ventricular%20septum%20development" cy:nodeId="323412">
+    <graphics x="-649.7186895642237" y="911.1150784524916" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325848" label="regulation%20of%20protein%20metabolic%20process" cy:nodeId="324564">
+    <graphics x="-1185.3758766930596" y="-30.78448224318152" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325923" label="regulation%20of%20DNA-templated%20transcription" cy:nodeId="323445">
+    <graphics x="-700.1483686692125" y="-387.40295315882486" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325854" label="negative%20regulation%20of%20neurogenesis" cy:nodeId="324501">
+    <graphics x="395.57700364524067" y="160.63111208775717" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325898" label="positive%20regulation%20of%20macromolecule%20biosynthetic%20process" cy:nodeId="323670">
+    <graphics x="-880.7172773606187" y="-601.945952426403" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325880" label="central%20nervous%20system%20neuron%20differentiation" cy:nodeId="323991">
+    <graphics x="158.04767625266254" y="107.39228152135092" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325916" label="cell-substrate%20junction%20assembly" cy:nodeId="323511">
+    <graphics x="-397.1433582226444" y="665.2925994492778" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325836" label="plasma%20membrane%20bounded%20cell%20projection%20morphogenesis" cy:nodeId="324888">
+    <graphics x="149.17685716086567" y="479.89643954137046" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325893" label="negative%20regulation%20of%20gene%20expression" cy:nodeId="323769">
+    <graphics x="-933.2894514328843" y="-305.66218281885904" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325935" label="mRNA%20splicing,%20via%20spliceosome" cy:nodeId="323385">
+    <graphics x="-320.52302534645855" y="-316.46069146296304" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325857" label="neuron%20projection%20morphogenesis" cy:nodeId="324441">
+    <graphics x="206.3410722487563" y="480.5347299466439" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325919" label="mRNA%20processing" cy:nodeId="323481">
+    <graphics x="-375.50582392281353" y="-195.96520901819986" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325852" label="modulation%20of%20chemical%20synaptic%20transmission" cy:nodeId="324537">
+    <graphics x="-196.96012948460844" y="-502.26723449124285" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325837" label="regulation%20of%20plasma%20membrane%20bounded%20cell%20projection%20organization" cy:nodeId="324858">
+    <graphics x="-125.78893263405621" y="662.3985605130501" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325915" label="enzyme-linked%20receptor%20protein%20signaling%20pathway" cy:nodeId="323514">
+    <graphics x="-532.6732568986065" y="486.5664424732269" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325895" label="negative%20regulation%20of%20macromolecule%20metabolic%20process" cy:nodeId="323739">
+    <graphics x="-1162.6503523117906" y="-253.85853482386392" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325908" label="RNA%20splicing" cy:nodeId="323547">
+    <graphics x="-254.66968519753277" y="-160.00895596644204" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325843" label="regulation%20of%20nervous%20system%20development" cy:nodeId="324732">
+    <graphics x="198.50974290305317" y="169.5567560086556" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325882" label="limbic%20system%20development" cy:nodeId="323964">
+    <graphics x="599.7390214675063" y="-557.1270742525749" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325906" label="purine%20ribonucleoside%20diphosphate%20metabolic%20process" cy:nodeId="323580">
+    <graphics x="-1233.7817930259062" y="776.9783716424232" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325904" label="negative%20regulation%20of%20biosynthetic%20process" cy:nodeId="323613">
+    <graphics x="-1174.4408796555406" y="-397.4303808321647" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325879" label="neurogenesis" cy:nodeId="323997">
+    <graphics x="10.208404464274473" y="137.31296715959888" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_FILL_COLOR" value="#FFFFFF" type="string" cy:type="String"/>
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325873" label="positive%20regulation%20of%20cell%20projection%20organization" cy:nodeId="324093">
+    <graphics x="-44.80541212624371" y="873.3757943997689" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325928" label="G%20protein-coupled%20receptor%20activity" cy:nodeId="323421">
+    <graphics x="-296.0666946264029" y="502.716396416846" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325856" label="dendrite%20morphogenesis" cy:nodeId="324477">
+    <graphics x="236.32680528098285" y="242.20801781514365" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_FILL_COLOR" value="#FFFFFF" type="string" cy:type="String"/>
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325914" label="small%20GTPase-mediated%20signal%20transduction" cy:nodeId="323517">
+    <graphics x="159.5585038015255" y="-543.5752118887488" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325889" label="rRNA%20metabolic%20process" cy:nodeId="323838">
+    <graphics x="-688.0261152512437" y="-176.63111783167642" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_FILL_COLOR" value="#FFFFFF" type="string" cy:type="String"/>
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325832" label="nucleoside%20phosphate%20catabolic%20process" cy:nodeId="324990">
+    <graphics x="-1255.5894102134062" y="577.8452406152015" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325922" label="regulation%20of%20transcription%20by%20RNA%20polymerase%20I" cy:nodeId="323454">
+    <graphics x="-739.8827728233398" y="-403.8598292177728" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <node id="325934" label="maturation%20of%20SSU-rRNA%20from%20tricistronic%20rRNA%20transcript%20(SSU-rRNA,%205.8S%20rRNA,%20LSU-rRNA)" cy:nodeId="323391">
+    <graphics x="-564.7193983322984" y="309.27053927281577" z="0.0">
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="NODE_CUSTOMGRAPHICS_1" value="CluePedia Custom Term Image" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </node>
+  <edge id="326084" label="negative regulation of RNA metabolic process (term-term-ontology) negative regulation of nucleobase-containing compound metabolic process" cy:edgeId="324672">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326352" label="negative regulation of macromolecule biosynthetic process (term-term-ontology) regulation of macromolecule biosynthetic process" cy:edgeId="323712">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326028" label="regulation of plasma membrane bounded cell projection organization (term-term-ontology) regulation of neuron projection development" cy:edgeId="324864">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326222" label="negative regulation of nucleobase-containing compound metabolic process (term-term-ontology) regulation of nucleobase-containing compound metabolic process" cy:edgeId="324192">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326074" label="positive regulation of RNA metabolic process (term-term-ontology) positive regulation of macromolecule metabolic process" cy:edgeId="324705">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="325961" label="positive regulation of RNA biosynthetic process (term-term-ontology) positive regulation of RNA metabolic process" cy:edgeId="325089">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326238" label="RNA biosynthetic process (term-term-ontology) RNA metabolic process" cy:edgeId="324129">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326212" label="positive regulation of nucleobase-containing compound metabolic process (term-term-ontology) regulation of nucleobase-containing compound metabolic process" cy:edgeId="324225">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326412" label="regulation of transcription by RNA polymerase I (term-term-ontology) regulation of DNA-templated transcription" cy:edgeId="323457">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326394" label="RNA splicing (term-term-ontology) RNA splicing, via transesterification reactions" cy:edgeId="323553">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326361" label="positive regulation of macromolecule biosynthetic process (term-term-ontology) positive regulation of biosynthetic process" cy:edgeId="323682">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326064" label="regulation of nervous system development (term-term-ontology) regulation of neurogenesis" cy:edgeId="324738">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326229" label="ribosomal small subunit biogenesis (term-term-ontology) maturation of SSU-rRNA" cy:edgeId="324162">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326203" label="ADP metabolic process (term-term-ontology) purine ribonucleoside diphosphate metabolic process" cy:edgeId="324258">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326404" label="mRNA processing (term-term-ontology) mRNA splicing, via spliceosome" cy:edgeId="323490">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326164" label="cell morphogenesis involved in neuron differentiation (term-term-ontology) neuron development" cy:edgeId="324387">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326113" label="negative regulation of protein metabolic process (term-term-ontology) negative regulation of macromolecule metabolic process" cy:edgeId="324579">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326316" label="rRNA metabolic process (term-term-ontology) rRNA processing" cy:edgeId="323844">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326288" label="spinal cord development (term-term-ontology) central nervous system development" cy:edgeId="323940">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326333" label="negative regulation of gene expression (term-term-ontology) negative regulation of macromolecule biosynthetic process" cy:edgeId="323781">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326173" label="neuron development (term-term-ontology) neuron projection development" cy:edgeId="324357">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326082" label="negative regulation of RNA metabolic process (term-term-ontology) regulation of RNA metabolic process" cy:edgeId="324678">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="325970" label="positive regulation of RNA biosynthetic process (term-term-ontology) positive regulation of macromolecule biosynthetic process" cy:edgeId="325062">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326135" label="dendrite morphogenesis (term-term-ontology) cell morphogenesis involved in neuron differentiation" cy:edgeId="324486">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326072" label="positive regulation of RNA metabolic process (term-term-ontology) RNA metabolic process" cy:edgeId="324711">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326127" label="regulation of axonogenesis (term-term-ontology) axonogenesis" cy:edgeId="324519">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326006" label="ATP-dependent protein folding chaperone (term-term-ontology) protein folding chaperone" cy:edgeId="324936">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326254" label="hindbrain development (term-term-ontology) brain development" cy:edgeId="324072">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326402" label="mRNA processing (term-term-ontology) RNA processing" cy:edgeId="323496">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326054" label="axon development (term-term-ontology) axonogenesis" cy:edgeId="324777">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326246" label="RNA biosynthetic process (term-term-ontology) DNA-templated transcription" cy:edgeId="324105">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326163" label="generation of neurons (term-term-ontology) neuron migration" cy:edgeId="324393">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326134" label="dendrite morphogenesis (term-term-ontology) neuron projection morphogenesis" cy:edgeId="324489">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326111" label="negative regulation of protein metabolic process (term-term-ontology) regulation of protein metabolic process" cy:edgeId="324585">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326340" label="negative regulation of macromolecule metabolic process (term-term-ontology) negative regulation of macromolecule biosynthetic process" cy:edgeId="323754">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326314" label="rRNA metabolic process (term-term-ontology) RNA metabolic process" cy:edgeId="323850">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326391" label="RNA splicing (term-term-ontology) RNA processing" cy:edgeId="323562">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326358" label="positive regulation of macromolecule biosynthetic process (term-term-ontology) regulation of macromolecule biosynthetic process" cy:edgeId="323691">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326271" label="neuron differentiation (term-term-ontology) central nervous system neuron differentiation" cy:edgeId="324012">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="325937" label="regulation of RNA biosynthetic process (term-term-ontology) positive regulation of RNA biosynthetic process" cy:edgeId="325164">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326190" label="ADP catabolic process (term-term-ontology) ADP metabolic process" cy:edgeId="324300">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326398" label="axon guidance (term-term-ontology) axonogenesis" cy:edgeId="323532">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326262" label="forebrain development (term-term-ontology) brain development" cy:edgeId="324045">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326235" label="gliogenesis (term-term-ontology) glial cell differentiation" cy:edgeId="324141">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326209" label="positive regulation of transcription by RNA polymerase I (term-term-ontology) regulation of transcription by RNA polymerase I" cy:edgeId="324237">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326152" label="oligodendrocyte differentiation (term-term-ontology) central nervous system development" cy:edgeId="324429">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326125" label="regulation of axonogenesis (term-term-ontology) regulation of neuron projection development" cy:edgeId="324525">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326278" label="hippocampus development (term-term-ontology) pallium development" cy:edgeId="323982">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="325977" label="regulation of intracellular signal transduction (term-term-ontology) regulation of small GTPase mediated signal transduction" cy:edgeId="325038">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326171" label="cell morphogenesis involved in neuron differentiation (term-term-ontology) axonogenesis" cy:edgeId="324366">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326420" label="vasculature development (term-term-ontology) blood vessel development" cy:edgeId="323406">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326117" label="regulation of small GTPase mediated signal transduction (term-term-ontology) small GTPase-mediated signal transduction" cy:edgeId="324558">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326244" label="RNA biosynthetic process (term-term-ontology) RNA processing" cy:edgeId="324111">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326099" label="regulation of RNA metabolic process (term-term-ontology) RNA metabolic process" cy:edgeId="324624">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="325957" label="regulation of RNA biosynthetic process (term-term-ontology) regulation of DNA-templated transcription" cy:edgeId="325104">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326234" label="gliogenesis (term-term-ontology) neurogenesis" cy:edgeId="324144">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326004" label="intracellular signaling cassette (term-term-ontology) small GTPase-mediated signal transduction" cy:edgeId="324945">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="325946" label="regulation of RNA biosynthetic process (term-term-ontology) RNA biosynthetic process" cy:edgeId="325137">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326141" label="neuron projection morphogenesis (term-term-ontology) neuron projection development" cy:edgeId="324465">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="325994" label="nucleic acid biosynthetic process (term-term-ontology) RNA biosynthetic process" cy:edgeId="324978">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326132" label="regulation of neurogenesis (term-term-ontology) neurogenesis" cy:edgeId="324498">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326365" label="regulation of macromolecule biosynthetic process (term-term-ontology) regulation of gene expression" cy:edgeId="323667">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326068" label="positive regulation of RNA metabolic process (term-term-ontology) positive regulation of nucleobase-containing compound metabolic process" cy:edgeId="324723">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326338" label="post-transcriptional regulation of gene expression (term-term-ontology) regulation of translation" cy:edgeId="323763">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326260" label="forebrain development (term-term-ontology) telencephalon development" cy:edgeId="324051">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326150" label="oligodendrocyte differentiation (term-term-ontology) glial cell differentiation" cy:edgeId="324435">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326088" label="negative regulation of RNA metabolic process (term-term-ontology) negative regulation of macromolecule metabolic process" cy:edgeId="324660">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326059" label="negative regulation of nervous system development (term-term-ontology) negative regulation of neurogenesis" cy:edgeId="324756">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326276" label="hippocampus development (term-term-ontology) limbic system development" cy:edgeId="323988">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326251" label="neuron projection development (term-term-ontology) regulation of neuron projection development" cy:edgeId="324084">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326400" label="regulation of translational initiation (term-term-ontology) regulation of translation" cy:edgeId="323508">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326320" label="mRNA metabolic process (term-term-ontology) mRNA processing" cy:edgeId="323829">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="325965" label="positive regulation of RNA biosynthetic process (term-term-ontology) RNA biosynthetic process" cy:edgeId="325077">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326097" label="regulation of RNA metabolic process (term-term-ontology) regulation of nucleobase-containing compound metabolic process" cy:edgeId="324630">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326337" label="post-transcriptional regulation of gene expression (term-term-ontology) regulation of gene expression" cy:edgeId="323766">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326407" label="RNA processing (term-term-ontology) rRNA processing" cy:edgeId="323478">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326087" label="negative regulation of RNA metabolic process (term-term-ontology) RNA metabolic process" cy:edgeId="324663">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326355" label="negative regulation of macromolecule biosynthetic process (term-term-ontology) negative regulation of biosynthetic process" cy:edgeId="323703">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326301" label="hexose catabolic process (term-term-ontology) glucose catabolic process" cy:edgeId="323895">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326373" label="regulation of gene expression (term-term-ontology) regulation of DNA-templated transcription" cy:edgeId="323640">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326345" label="positive regulation of macromolecule metabolic process (term-term-ontology) positive regulation of macromolecule biosynthetic process" cy:edgeId="323736">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326268" label="maturation of SSU-rRNA (term-term-ontology) maturation of SSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)" cy:edgeId="324024">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326158" label="generation of neurons (term-term-ontology) neurogenesis" cy:edgeId="324408">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326131" label="negative regulation of neurogenesis (term-term-ontology) neurogenesis" cy:edgeId="324504">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326396" label="brain development (term-term-ontology) central nervous system development" cy:edgeId="323544">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326066" label="positive regulation of RNA metabolic process (term-term-ontology) regulation of RNA metabolic process" cy:edgeId="324729">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326010" label="plasma membrane bounded cell projection morphogenesis (term-term-ontology) neuron projection morphogenesis" cy:edgeId="324921">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326283" label="pallium development (term-term-ontology) telencephalon development" cy:edgeId="323961">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326275" label="central nervous system neuron differentiation (term-term-ontology) central nervous system development" cy:edgeId="323994">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326418" label="ventricular septum development (term-term-ontology) cardiac septum development" cy:edgeId="323418">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326115" label="regulation of protein metabolic process (term-term-ontology) regulation of translation" cy:edgeId="324570">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326048" label="axon development (term-term-ontology) neuron projection development" cy:edgeId="324795">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326318" label="mRNA metabolic process (term-term-ontology) RNA metabolic process" cy:edgeId="323835">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326413" label="regulation of DNA-templated transcription (term-term-ontology) DNA-templated transcription" cy:edgeId="323451">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326257" label="forebrain development (term-term-ontology) limbic system development" cy:edgeId="324060">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="325953" label="regulation of RNA biosynthetic process (term-term-ontology) regulation of macromolecule biosynthetic process" cy:edgeId="325116">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326056" label="negative regulation of nervous system development (term-term-ontology) regulation of nervous system development" cy:edgeId="324765">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="325942" label="regulation of RNA biosynthetic process (term-term-ontology) regulation of RNA metabolic process" cy:edgeId="325149">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326266" label="maturation of SSU-rRNA (term-term-ontology) rRNA processing" cy:edgeId="324030">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326156" label="generation of neurons (term-term-ontology) neuron differentiation" cy:edgeId="324414">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326129" label="negative regulation of neurogenesis (term-term-ontology) regulation of neurogenesis" cy:edgeId="324510">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326335" label="negative regulation of gene expression (term-term-ontology) regulation of gene expression" cy:edgeId="323775">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326175" label="neuron development (term-term-ontology) neuron differentiation" cy:edgeId="324351">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326147" label="neuron projection morphogenesis (term-term-ontology) axonogenesis" cy:edgeId="324447">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="326120" label="modulation of chemical synaptic transmission (term-term-ontology) chemical synaptic transmission" cy:edgeId="324543">
+    <graphics>
+      <att name="lockedVisualProperties" type="list" cy:type="List">
+        <att name="EDGE_VISIBLE" value="false" type="string" cy:type="String"/>
+      </att>
+    </graphics>
+  </edge>
+</graph>

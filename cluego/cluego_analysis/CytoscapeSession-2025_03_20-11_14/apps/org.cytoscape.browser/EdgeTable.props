@@ -1,0 +1,54 @@
+Hypothyroid Network default edge,0,SUID,false
+Hypothyroid Network default edge,1,selected,false
+Hypothyroid Network default edge,2,shared name,true
+Hypothyroid Network default edge,3,shared interaction,true
+Hypothyroid Network default edge,4,name,true
+Hypothyroid Network default edge,5,interaction,true
+Results for Analysis1 default edge,0,SUID,false
+Results for Analysis1 default edge,1,shared name,true
+Results for Analysis1 default edge,2,selected,false
+Results for Analysis1 default edge,3,shared interaction,true
+Results for Analysis1 default edge,4,name,true
+Results for Analysis1 default edge,5,interaction,true
+Results for Analysis1 default edge,6,UNIQUE_ID,true
+Results for Analysis1 default edge,7,INTERACTION_TYPE,true
+Results for Analysis1 default edge,8,KappaScore,true
+Results for Analysis1 default edge,9,Regulates Source,true
+Results for Analysis1 default edge,10,Regulates Target,true
+Results for Analysis1 default edge,11,SIGNUM,true
+Results for Analysis1 default edge,12,ACTION_TYPE,true
+Results for Analysis1 default edge,13,ACTION_SCORE,true
+Results for Analysis1 default edge,14,ACTION_DIRECTION,true
+Results for Analysis1 default edge,15,edge-label,true
+Results for Analysis1 default edge,16,EVIDENCE_CODE,true
+Results for Analysis1 default edge,17,SOURCE_NAME,true
+Results for Analysis1 default edge,18,TARGET_NAME,true
+Results for Analysis1 default edge,19,INITIAL_SOURCE_NAME,true
+Results for Analysis1 default edge,20,INITIAL_TARGET_NAME,true
+Results for Analysis1 default edge,21,EDGE_UNIQUE_SUID,true
+Results for Analysis1 default edge,22,SOURCE_SYMBOL_NAME,true
+Results for Analysis1 default edge,23,TARGET_SYMBOL_NAME,true
+Results for Analysis0 default edge,0,SUID,false
+Results for Analysis0 default edge,1,shared name,true
+Results for Analysis0 default edge,2,selected,false
+Results for Analysis0 default edge,3,shared interaction,true
+Results for Analysis0 default edge,4,name,true
+Results for Analysis0 default edge,5,interaction,true
+Results for Analysis0 default edge,6,UNIQUE_ID,true
+Results for Analysis0 default edge,7,INTERACTION_TYPE,true
+Results for Analysis0 default edge,8,KappaScore,true
+Results for Analysis0 default edge,9,Regulates Source,true
+Results for Analysis0 default edge,10,Regulates Target,true
+Results for Analysis0 default edge,11,SIGNUM,true
+Results for Analysis0 default edge,12,ACTION_TYPE,true
+Results for Analysis0 default edge,13,ACTION_SCORE,true
+Results for Analysis0 default edge,14,ACTION_DIRECTION,true
+Results for Analysis0 default edge,15,edge-label,true
+Results for Analysis0 default edge,16,EVIDENCE_CODE,true
+Results for Analysis0 default edge,17,SOURCE_NAME,true
+Results for Analysis0 default edge,18,TARGET_NAME,true
+Results for Analysis0 default edge,19,INITIAL_SOURCE_NAME,true
+Results for Analysis0 default edge,20,INITIAL_TARGET_NAME,true
+Results for Analysis0 default edge,21,EDGE_UNIQUE_SUID,true
+Results for Analysis0 default edge,22,SOURCE_SYMBOL_NAME,true
+Results for Analysis0 default edge,23,TARGET_SYMBOL_NAME,true

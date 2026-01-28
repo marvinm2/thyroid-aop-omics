@@ -1,0 +1,74 @@
+Results for Analysis1 default node,0,SUID,false
+Results for Analysis1 default node,1,shared name,true
+Results for Analysis1 default node,2,selected,false
+Results for Analysis1 default node,3,name,true
+Results for Analysis1 default node,4,UNIQUE_ID,true
+Results for Analysis1 default node,5,ENSEMBL_GENE_ID,true
+Results for Analysis1 default node,6,UniProtKB_AC,true
+Results for Analysis1 default node,7,Input Gene ID,true
+Results for Analysis1 default node,8,GeneType,true
+Results for Analysis1 default node,9,ID,true
+Results for Analysis1 default node,10,Ontology Source,true
+Results for Analysis1 default node,11,Term,true
+Results for Analysis1 default node,12,GOLevels,true
+Results for Analysis1 default node,13,GOGroups,true
+Results for Analysis1 default node,14,Nr. Genes,true
+Results for Analysis1 default node,15,% Associated Genes,true
+Results for Analysis1 default node,16,Term PValue,true
+Results for Analysis1 default node,17,Group PValue,true
+Results for Analysis1 default node,18,Associated Genes Found,true
+Results for Analysis1 default node,19,All Associated Genes,true
+Results for Analysis1 default node,20,OverViewTerm,true
+Results for Analysis1 default node,21,Cluster,true
+Results for Analysis1 default node,22,Common Genes,true
+Results for Analysis1 default node,23,%Genes Cluster #,true
+Results for Analysis1 default node,24,% Common Gene,true
+Results for Analysis1 default node,25,CEREBRAL_LOCALIZATION_INFO,true
+Results for Analysis1 default node,26,CEREBRAL_LOCALIZATION_INFO_ALL,true
+Results for Analysis1 default node,27,CEREBRAL_DOWNSTRAM_INFO,true
+Results for Analysis1 default node,28,CEREBRAL_DOWNSTRAM_INFO_ALL,true
+Results for Analysis1 default node,29,Term PValue Corrected with Bonferroni step down,true
+Results for Analysis1 default node,30,Group PValue Corrected with Bonferroni step down,true
+Results for Analysis1 default node,31,Genes Cluster #1,true
+Results for Analysis1 default node,32,%Genes Cluster #1,true
+Results for Analysis1 default node,33,Genes Cluster #2,true
+Results for Analysis1 default node,34,%Genes Cluster #2,true
+Results for Analysis0 default node,0,SUID,false
+Results for Analysis0 default node,1,shared name,true
+Results for Analysis0 default node,2,selected,false
+Results for Analysis0 default node,3,name,true
+Results for Analysis0 default node,4,UNIQUE_ID,true
+Results for Analysis0 default node,5,ENSEMBL_GENE_ID,true
+Results for Analysis0 default node,6,UniProtKB_AC,true
+Results for Analysis0 default node,7,Input Gene ID,true
+Results for Analysis0 default node,8,GeneType,true
+Results for Analysis0 default node,9,ID,true
+Results for Analysis0 default node,10,Ontology Source,true
+Results for Analysis0 default node,11,Term,true
+Results for Analysis0 default node,12,GOLevels,true
+Results for Analysis0 default node,13,GOGroups,true
+Results for Analysis0 default node,14,Nr. Genes,true
+Results for Analysis0 default node,15,% Associated Genes,true
+Results for Analysis0 default node,16,Term PValue,true
+Results for Analysis0 default node,17,Group PValue,true
+Results for Analysis0 default node,18,Associated Genes Found,true
+Results for Analysis0 default node,19,All Associated Genes,true
+Results for Analysis0 default node,20,OverViewTerm,true
+Results for Analysis0 default node,21,Cluster,true
+Results for Analysis0 default node,22,Common Genes,true
+Results for Analysis0 default node,23,%Genes Cluster #,true
+Results for Analysis0 default node,24,% Common Gene,true
+Results for Analysis0 default node,25,CEREBRAL_LOCALIZATION_INFO,true
+Results for Analysis0 default node,26,CEREBRAL_LOCALIZATION_INFO_ALL,true
+Results for Analysis0 default node,27,CEREBRAL_DOWNSTRAM_INFO,true
+Results for Analysis0 default node,28,CEREBRAL_DOWNSTRAM_INFO_ALL,true
+Results for Analysis0 default node,29,Term PValue Corrected with Bonferroni step down,true
+Results for Analysis0 default node,30,Group PValue Corrected with Bonferroni step down,true
+Hypothyroid Network default node,0,SUID,false
+Hypothyroid Network default node,1,selected,false
+Hypothyroid Network default node,2,shared name,true
+Hypothyroid Network default node,3,id,true
+Hypothyroid Network default node,4,GeneSymbol,true
+Hypothyroid Network default node,5,name,true
+Hypothyroid Network default node,6,Significance,true
+Hypothyroid Network default node,7,log2FC,true

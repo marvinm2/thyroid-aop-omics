@@ -1,0 +1,926 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cyTables>
+    <virtualColumns>
+        <virtualColumn name="shared name" sourceColumn="shared name" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyNetwork-323178+shared+network.cytable" sourceJoinKey="SUID" targetTable="323178-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyNetwork-323178+default+network.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="shared name" sourceColumn="shared name" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNetwork-326426+shared+network.cytable" sourceJoinKey="SUID" targetTable="326467-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNetwork-Results+for+Analysis1+default+network.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="shared name" sourceColumn="shared name" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyEdge-323178+shared+edge.cytable" sourceJoinKey="SUID" targetTable="323178-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyEdge-323178+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="shared interaction" sourceColumn="shared interaction" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyEdge-323178+shared+edge.cytable" sourceJoinKey="SUID" targetTable="323178-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyEdge-323178+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="UNIQUE_ID" sourceColumn="UNIQUE_ID" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyEdge-323178+shared+edge.cytable" sourceJoinKey="SUID" targetTable="323178-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyEdge-323178+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="INTERACTION_TYPE" sourceColumn="INTERACTION_TYPE" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyEdge-323178+shared+edge.cytable" sourceJoinKey="SUID" targetTable="323178-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyEdge-323178+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="KappaScore" sourceColumn="KappaScore" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyEdge-323178+shared+edge.cytable" sourceJoinKey="SUID" targetTable="323178-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyEdge-323178+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Regulates Source" sourceColumn="Regulates Source" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyEdge-323178+shared+edge.cytable" sourceJoinKey="SUID" targetTable="323178-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyEdge-323178+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Regulates Target" sourceColumn="Regulates Target" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyEdge-323178+shared+edge.cytable" sourceJoinKey="SUID" targetTable="323178-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyEdge-323178+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="SIGNUM" sourceColumn="SIGNUM" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyEdge-323178+shared+edge.cytable" sourceJoinKey="SUID" targetTable="323178-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyEdge-323178+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="ACTION_TYPE" sourceColumn="ACTION_TYPE" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyEdge-323178+shared+edge.cytable" sourceJoinKey="SUID" targetTable="323178-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyEdge-323178+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="ACTION_SCORE" sourceColumn="ACTION_SCORE" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyEdge-323178+shared+edge.cytable" sourceJoinKey="SUID" targetTable="323178-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyEdge-323178+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="ACTION_DIRECTION" sourceColumn="ACTION_DIRECTION" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyEdge-323178+shared+edge.cytable" sourceJoinKey="SUID" targetTable="323178-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyEdge-323178+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="edge-label" sourceColumn="edge-label" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyEdge-323178+shared+edge.cytable" sourceJoinKey="SUID" targetTable="323178-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyEdge-323178+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="EVIDENCE_CODE" sourceColumn="EVIDENCE_CODE" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyEdge-323178+shared+edge.cytable" sourceJoinKey="SUID" targetTable="323178-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyEdge-323178+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="SOURCE_NAME" sourceColumn="SOURCE_NAME" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyEdge-323178+shared+edge.cytable" sourceJoinKey="SUID" targetTable="323178-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyEdge-323178+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="TARGET_NAME" sourceColumn="TARGET_NAME" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyEdge-323178+shared+edge.cytable" sourceJoinKey="SUID" targetTable="323178-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyEdge-323178+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="INITIAL_SOURCE_NAME" sourceColumn="INITIAL_SOURCE_NAME" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyEdge-323178+shared+edge.cytable" sourceJoinKey="SUID" targetTable="323178-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyEdge-323178+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="INITIAL_TARGET_NAME" sourceColumn="INITIAL_TARGET_NAME" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyEdge-323178+shared+edge.cytable" sourceJoinKey="SUID" targetTable="323178-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyEdge-323178+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="EDGE_UNIQUE_SUID" sourceColumn="EDGE_UNIQUE_SUID" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyEdge-323178+shared+edge.cytable" sourceJoinKey="SUID" targetTable="323178-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyEdge-323178+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="SOURCE_SYMBOL_NAME" sourceColumn="SOURCE_SYMBOL_NAME" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyEdge-323178+shared+edge.cytable" sourceJoinKey="SUID" targetTable="323178-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyEdge-323178+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="TARGET_SYMBOL_NAME" sourceColumn="TARGET_SYMBOL_NAME" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyEdge-323178+shared+edge.cytable" sourceJoinKey="SUID" targetTable="323178-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyEdge-323178+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="shared name" sourceColumn="shared name" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyEdge-76521+shared+edge.cytable" sourceJoinKey="SUID" targetTable="76521-76521/LOCAL_ATTRS-org.cytoscape.model.CyEdge-76521+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="shared interaction" sourceColumn="shared interaction" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyEdge-76521+shared+edge.cytable" sourceJoinKey="SUID" targetTable="76521-76521/LOCAL_ATTRS-org.cytoscape.model.CyEdge-76521+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="UNIQUE_ID" sourceColumn="UNIQUE_ID" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyEdge-76521+shared+edge.cytable" sourceJoinKey="SUID" targetTable="76521-76521/LOCAL_ATTRS-org.cytoscape.model.CyEdge-76521+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="INTERACTION_TYPE" sourceColumn="INTERACTION_TYPE" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyEdge-76521+shared+edge.cytable" sourceJoinKey="SUID" targetTable="76521-76521/LOCAL_ATTRS-org.cytoscape.model.CyEdge-76521+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="KappaScore" sourceColumn="KappaScore" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyEdge-76521+shared+edge.cytable" sourceJoinKey="SUID" targetTable="76521-76521/LOCAL_ATTRS-org.cytoscape.model.CyEdge-76521+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Regulates Source" sourceColumn="Regulates Source" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyEdge-76521+shared+edge.cytable" sourceJoinKey="SUID" targetTable="76521-76521/LOCAL_ATTRS-org.cytoscape.model.CyEdge-76521+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Regulates Target" sourceColumn="Regulates Target" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyEdge-76521+shared+edge.cytable" sourceJoinKey="SUID" targetTable="76521-76521/LOCAL_ATTRS-org.cytoscape.model.CyEdge-76521+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="SIGNUM" sourceColumn="SIGNUM" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyEdge-76521+shared+edge.cytable" sourceJoinKey="SUID" targetTable="76521-76521/LOCAL_ATTRS-org.cytoscape.model.CyEdge-76521+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="ACTION_TYPE" sourceColumn="ACTION_TYPE" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyEdge-76521+shared+edge.cytable" sourceJoinKey="SUID" targetTable="76521-76521/LOCAL_ATTRS-org.cytoscape.model.CyEdge-76521+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="ACTION_SCORE" sourceColumn="ACTION_SCORE" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyEdge-76521+shared+edge.cytable" sourceJoinKey="SUID" targetTable="76521-76521/LOCAL_ATTRS-org.cytoscape.model.CyEdge-76521+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="ACTION_DIRECTION" sourceColumn="ACTION_DIRECTION" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyEdge-76521+shared+edge.cytable" sourceJoinKey="SUID" targetTable="76521-76521/LOCAL_ATTRS-org.cytoscape.model.CyEdge-76521+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="edge-label" sourceColumn="edge-label" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyEdge-76521+shared+edge.cytable" sourceJoinKey="SUID" targetTable="76521-76521/LOCAL_ATTRS-org.cytoscape.model.CyEdge-76521+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="EVIDENCE_CODE" sourceColumn="EVIDENCE_CODE" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyEdge-76521+shared+edge.cytable" sourceJoinKey="SUID" targetTable="76521-76521/LOCAL_ATTRS-org.cytoscape.model.CyEdge-76521+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="SOURCE_NAME" sourceColumn="SOURCE_NAME" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyEdge-76521+shared+edge.cytable" sourceJoinKey="SUID" targetTable="76521-76521/LOCAL_ATTRS-org.cytoscape.model.CyEdge-76521+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="TARGET_NAME" sourceColumn="TARGET_NAME" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyEdge-76521+shared+edge.cytable" sourceJoinKey="SUID" targetTable="76521-76521/LOCAL_ATTRS-org.cytoscape.model.CyEdge-76521+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="INITIAL_SOURCE_NAME" sourceColumn="INITIAL_SOURCE_NAME" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyEdge-76521+shared+edge.cytable" sourceJoinKey="SUID" targetTable="76521-76521/LOCAL_ATTRS-org.cytoscape.model.CyEdge-76521+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="INITIAL_TARGET_NAME" sourceColumn="INITIAL_TARGET_NAME" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyEdge-76521+shared+edge.cytable" sourceJoinKey="SUID" targetTable="76521-76521/LOCAL_ATTRS-org.cytoscape.model.CyEdge-76521+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="EDGE_UNIQUE_SUID" sourceColumn="EDGE_UNIQUE_SUID" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyEdge-76521+shared+edge.cytable" sourceJoinKey="SUID" targetTable="76521-76521/LOCAL_ATTRS-org.cytoscape.model.CyEdge-76521+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="SOURCE_SYMBOL_NAME" sourceColumn="SOURCE_SYMBOL_NAME" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyEdge-76521+shared+edge.cytable" sourceJoinKey="SUID" targetTable="76521-76521/LOCAL_ATTRS-org.cytoscape.model.CyEdge-76521+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="TARGET_SYMBOL_NAME" sourceColumn="TARGET_SYMBOL_NAME" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyEdge-76521+shared+edge.cytable" sourceJoinKey="SUID" targetTable="76521-76521/LOCAL_ATTRS-org.cytoscape.model.CyEdge-76521+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="shared name" sourceColumn="shared name" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyNode-76521+shared+node.cytable" sourceJoinKey="SUID" targetTable="76562-Results+for+Analysis9/LOCAL_ATTRS-org.cytoscape.model.CyNode-76562+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="UNIQUE_ID" sourceColumn="UNIQUE_ID" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyNode-76521+shared+node.cytable" sourceJoinKey="SUID" targetTable="76562-Results+for+Analysis9/LOCAL_ATTRS-org.cytoscape.model.CyNode-76562+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="ENSEMBL_GENE_ID" sourceColumn="ENSEMBL_GENE_ID" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyNode-76521+shared+node.cytable" sourceJoinKey="SUID" targetTable="76562-Results+for+Analysis9/LOCAL_ATTRS-org.cytoscape.model.CyNode-76562+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="UniProtKB_AC" sourceColumn="UniProtKB_AC" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyNode-76521+shared+node.cytable" sourceJoinKey="SUID" targetTable="76562-Results+for+Analysis9/LOCAL_ATTRS-org.cytoscape.model.CyNode-76562+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Input Gene ID" sourceColumn="Input Gene ID" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyNode-76521+shared+node.cytable" sourceJoinKey="SUID" targetTable="76562-Results+for+Analysis9/LOCAL_ATTRS-org.cytoscape.model.CyNode-76562+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="GeneType" sourceColumn="GeneType" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyNode-76521+shared+node.cytable" sourceJoinKey="SUID" targetTable="76562-Results+for+Analysis9/LOCAL_ATTRS-org.cytoscape.model.CyNode-76562+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="ID" sourceColumn="ID" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyNode-76521+shared+node.cytable" sourceJoinKey="SUID" targetTable="76562-Results+for+Analysis9/LOCAL_ATTRS-org.cytoscape.model.CyNode-76562+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Ontology Source" sourceColumn="Ontology Source" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyNode-76521+shared+node.cytable" sourceJoinKey="SUID" targetTable="76562-Results+for+Analysis9/LOCAL_ATTRS-org.cytoscape.model.CyNode-76562+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Term" sourceColumn="Term" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyNode-76521+shared+node.cytable" sourceJoinKey="SUID" targetTable="76562-Results+for+Analysis9/LOCAL_ATTRS-org.cytoscape.model.CyNode-76562+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="GOLevels" sourceColumn="GOLevels" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyNode-76521+shared+node.cytable" sourceJoinKey="SUID" targetTable="76562-Results+for+Analysis9/LOCAL_ATTRS-org.cytoscape.model.CyNode-76562+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="GOGroups" sourceColumn="GOGroups" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyNode-76521+shared+node.cytable" sourceJoinKey="SUID" targetTable="76562-Results+for+Analysis9/LOCAL_ATTRS-org.cytoscape.model.CyNode-76562+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Nr. Genes" sourceColumn="Nr. Genes" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyNode-76521+shared+node.cytable" sourceJoinKey="SUID" targetTable="76562-Results+for+Analysis9/LOCAL_ATTRS-org.cytoscape.model.CyNode-76562+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="% Associated Genes" sourceColumn="% Associated Genes" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyNode-76521+shared+node.cytable" sourceJoinKey="SUID" targetTable="76562-Results+for+Analysis9/LOCAL_ATTRS-org.cytoscape.model.CyNode-76562+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Term PValue" sourceColumn="Term PValue" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyNode-76521+shared+node.cytable" sourceJoinKey="SUID" targetTable="76562-Results+for+Analysis9/LOCAL_ATTRS-org.cytoscape.model.CyNode-76562+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Group PValue" sourceColumn="Group PValue" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyNode-76521+shared+node.cytable" sourceJoinKey="SUID" targetTable="76562-Results+for+Analysis9/LOCAL_ATTRS-org.cytoscape.model.CyNode-76562+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Associated Genes Found" sourceColumn="Associated Genes Found" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyNode-76521+shared+node.cytable" sourceJoinKey="SUID" targetTable="76562-Results+for+Analysis9/LOCAL_ATTRS-org.cytoscape.model.CyNode-76562+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="All Associated Genes" sourceColumn="All Associated Genes" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyNode-76521+shared+node.cytable" sourceJoinKey="SUID" targetTable="76562-Results+for+Analysis9/LOCAL_ATTRS-org.cytoscape.model.CyNode-76562+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="OverViewTerm" sourceColumn="OverViewTerm" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyNode-76521+shared+node.cytable" sourceJoinKey="SUID" targetTable="76562-Results+for+Analysis9/LOCAL_ATTRS-org.cytoscape.model.CyNode-76562+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Cluster" sourceColumn="Cluster" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyNode-76521+shared+node.cytable" sourceJoinKey="SUID" targetTable="76562-Results+for+Analysis9/LOCAL_ATTRS-org.cytoscape.model.CyNode-76562+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Common Genes" sourceColumn="Common Genes" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyNode-76521+shared+node.cytable" sourceJoinKey="SUID" targetTable="76562-Results+for+Analysis9/LOCAL_ATTRS-org.cytoscape.model.CyNode-76562+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="%Genes Cluster #" sourceColumn="%Genes Cluster #" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyNode-76521+shared+node.cytable" sourceJoinKey="SUID" targetTable="76562-Results+for+Analysis9/LOCAL_ATTRS-org.cytoscape.model.CyNode-76562+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="% Common Gene" sourceColumn="% Common Gene" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyNode-76521+shared+node.cytable" sourceJoinKey="SUID" targetTable="76562-Results+for+Analysis9/LOCAL_ATTRS-org.cytoscape.model.CyNode-76562+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="CEREBRAL_LOCALIZATION_INFO" sourceColumn="CEREBRAL_LOCALIZATION_INFO" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyNode-76521+shared+node.cytable" sourceJoinKey="SUID" targetTable="76562-Results+for+Analysis9/LOCAL_ATTRS-org.cytoscape.model.CyNode-76562+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="CEREBRAL_LOCALIZATION_INFO_ALL" sourceColumn="CEREBRAL_LOCALIZATION_INFO_ALL" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyNode-76521+shared+node.cytable" sourceJoinKey="SUID" targetTable="76562-Results+for+Analysis9/LOCAL_ATTRS-org.cytoscape.model.CyNode-76562+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="CEREBRAL_DOWNSTRAM_INFO" sourceColumn="CEREBRAL_DOWNSTRAM_INFO" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyNode-76521+shared+node.cytable" sourceJoinKey="SUID" targetTable="76562-Results+for+Analysis9/LOCAL_ATTRS-org.cytoscape.model.CyNode-76562+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="CEREBRAL_DOWNSTRAM_INFO_ALL" sourceColumn="CEREBRAL_DOWNSTRAM_INFO_ALL" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyNode-76521+shared+node.cytable" sourceJoinKey="SUID" targetTable="76562-Results+for+Analysis9/LOCAL_ATTRS-org.cytoscape.model.CyNode-76562+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Term PValue Corrected with Bonferroni step down" sourceColumn="Term PValue Corrected with Bonferroni step down" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyNode-76521+shared+node.cytable" sourceJoinKey="SUID" targetTable="76562-Results+for+Analysis9/LOCAL_ATTRS-org.cytoscape.model.CyNode-76562+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Group PValue Corrected with Bonferroni step down" sourceColumn="Group PValue Corrected with Bonferroni step down" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyNode-76521+shared+node.cytable" sourceJoinKey="SUID" targetTable="76562-Results+for+Analysis9/LOCAL_ATTRS-org.cytoscape.model.CyNode-76562+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="shared name" sourceColumn="shared name" sourceTable="2267-RNA%2DSeq+Networks/SHARED_ATTRS-org.cytoscape.model.CyEdge-2267+shared+edge.cytable" sourceJoinKey="SUID" targetTable="2308-Hypothyroid+Network/LOCAL_ATTRS-org.cytoscape.model.CyEdge-Hypothyroid+Network+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="shared interaction" sourceColumn="shared interaction" sourceTable="2267-RNA%2DSeq+Networks/SHARED_ATTRS-org.cytoscape.model.CyEdge-2267+shared+edge.cytable" sourceJoinKey="SUID" targetTable="2308-Hypothyroid+Network/LOCAL_ATTRS-org.cytoscape.model.CyEdge-Hypothyroid+Network+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="shared name" sourceColumn="shared name" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyNode-323178+shared+node.cytable" sourceJoinKey="SUID" targetTable="323219-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis0+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="UNIQUE_ID" sourceColumn="UNIQUE_ID" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyNode-323178+shared+node.cytable" sourceJoinKey="SUID" targetTable="323219-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis0+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="ENSEMBL_GENE_ID" sourceColumn="ENSEMBL_GENE_ID" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyNode-323178+shared+node.cytable" sourceJoinKey="SUID" targetTable="323219-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis0+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="UniProtKB_AC" sourceColumn="UniProtKB_AC" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyNode-323178+shared+node.cytable" sourceJoinKey="SUID" targetTable="323219-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis0+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Input Gene ID" sourceColumn="Input Gene ID" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyNode-323178+shared+node.cytable" sourceJoinKey="SUID" targetTable="323219-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis0+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="GeneType" sourceColumn="GeneType" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyNode-323178+shared+node.cytable" sourceJoinKey="SUID" targetTable="323219-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis0+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="ID" sourceColumn="ID" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyNode-323178+shared+node.cytable" sourceJoinKey="SUID" targetTable="323219-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis0+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Ontology Source" sourceColumn="Ontology Source" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyNode-323178+shared+node.cytable" sourceJoinKey="SUID" targetTable="323219-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis0+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Term" sourceColumn="Term" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyNode-323178+shared+node.cytable" sourceJoinKey="SUID" targetTable="323219-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis0+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="GOLevels" sourceColumn="GOLevels" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyNode-323178+shared+node.cytable" sourceJoinKey="SUID" targetTable="323219-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis0+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="GOGroups" sourceColumn="GOGroups" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyNode-323178+shared+node.cytable" sourceJoinKey="SUID" targetTable="323219-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis0+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Nr. Genes" sourceColumn="Nr. Genes" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyNode-323178+shared+node.cytable" sourceJoinKey="SUID" targetTable="323219-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis0+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="% Associated Genes" sourceColumn="% Associated Genes" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyNode-323178+shared+node.cytable" sourceJoinKey="SUID" targetTable="323219-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis0+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Term PValue" sourceColumn="Term PValue" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyNode-323178+shared+node.cytable" sourceJoinKey="SUID" targetTable="323219-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis0+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Group PValue" sourceColumn="Group PValue" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyNode-323178+shared+node.cytable" sourceJoinKey="SUID" targetTable="323219-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis0+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Associated Genes Found" sourceColumn="Associated Genes Found" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyNode-323178+shared+node.cytable" sourceJoinKey="SUID" targetTable="323219-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis0+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="All Associated Genes" sourceColumn="All Associated Genes" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyNode-323178+shared+node.cytable" sourceJoinKey="SUID" targetTable="323219-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis0+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="OverViewTerm" sourceColumn="OverViewTerm" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyNode-323178+shared+node.cytable" sourceJoinKey="SUID" targetTable="323219-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis0+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Cluster" sourceColumn="Cluster" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyNode-323178+shared+node.cytable" sourceJoinKey="SUID" targetTable="323219-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis0+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Common Genes" sourceColumn="Common Genes" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyNode-323178+shared+node.cytable" sourceJoinKey="SUID" targetTable="323219-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis0+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="%Genes Cluster #" sourceColumn="%Genes Cluster #" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyNode-323178+shared+node.cytable" sourceJoinKey="SUID" targetTable="323219-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis0+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="% Common Gene" sourceColumn="% Common Gene" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyNode-323178+shared+node.cytable" sourceJoinKey="SUID" targetTable="323219-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis0+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="CEREBRAL_LOCALIZATION_INFO" sourceColumn="CEREBRAL_LOCALIZATION_INFO" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyNode-323178+shared+node.cytable" sourceJoinKey="SUID" targetTable="323219-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis0+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="CEREBRAL_LOCALIZATION_INFO_ALL" sourceColumn="CEREBRAL_LOCALIZATION_INFO_ALL" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyNode-323178+shared+node.cytable" sourceJoinKey="SUID" targetTable="323219-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis0+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="CEREBRAL_DOWNSTRAM_INFO" sourceColumn="CEREBRAL_DOWNSTRAM_INFO" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyNode-323178+shared+node.cytable" sourceJoinKey="SUID" targetTable="323219-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis0+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="CEREBRAL_DOWNSTRAM_INFO_ALL" sourceColumn="CEREBRAL_DOWNSTRAM_INFO_ALL" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyNode-323178+shared+node.cytable" sourceJoinKey="SUID" targetTable="323219-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis0+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Term PValue Corrected with Bonferroni step down" sourceColumn="Term PValue Corrected with Bonferroni step down" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyNode-323178+shared+node.cytable" sourceJoinKey="SUID" targetTable="323219-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis0+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Group PValue Corrected with Bonferroni step down" sourceColumn="Group PValue Corrected with Bonferroni step down" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyNode-323178+shared+node.cytable" sourceJoinKey="SUID" targetTable="323219-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis0+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="shared name" sourceColumn="shared name" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyNetwork-76521+shared+network.cytable" sourceJoinKey="SUID" targetTable="76521-76521/LOCAL_ATTRS-org.cytoscape.model.CyNetwork-76521+default+network.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="shared name" sourceColumn="shared name" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyEdge-326426+shared+edge.cytable" sourceJoinKey="SUID" targetTable="326467-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyEdge-Results+for+Analysis1+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="shared interaction" sourceColumn="shared interaction" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyEdge-326426+shared+edge.cytable" sourceJoinKey="SUID" targetTable="326467-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyEdge-Results+for+Analysis1+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="UNIQUE_ID" sourceColumn="UNIQUE_ID" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyEdge-326426+shared+edge.cytable" sourceJoinKey="SUID" targetTable="326467-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyEdge-Results+for+Analysis1+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="INTERACTION_TYPE" sourceColumn="INTERACTION_TYPE" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyEdge-326426+shared+edge.cytable" sourceJoinKey="SUID" targetTable="326467-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyEdge-Results+for+Analysis1+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="KappaScore" sourceColumn="KappaScore" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyEdge-326426+shared+edge.cytable" sourceJoinKey="SUID" targetTable="326467-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyEdge-Results+for+Analysis1+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Regulates Source" sourceColumn="Regulates Source" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyEdge-326426+shared+edge.cytable" sourceJoinKey="SUID" targetTable="326467-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyEdge-Results+for+Analysis1+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Regulates Target" sourceColumn="Regulates Target" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyEdge-326426+shared+edge.cytable" sourceJoinKey="SUID" targetTable="326467-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyEdge-Results+for+Analysis1+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="SIGNUM" sourceColumn="SIGNUM" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyEdge-326426+shared+edge.cytable" sourceJoinKey="SUID" targetTable="326467-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyEdge-Results+for+Analysis1+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="ACTION_TYPE" sourceColumn="ACTION_TYPE" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyEdge-326426+shared+edge.cytable" sourceJoinKey="SUID" targetTable="326467-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyEdge-Results+for+Analysis1+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="ACTION_SCORE" sourceColumn="ACTION_SCORE" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyEdge-326426+shared+edge.cytable" sourceJoinKey="SUID" targetTable="326467-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyEdge-Results+for+Analysis1+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="ACTION_DIRECTION" sourceColumn="ACTION_DIRECTION" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyEdge-326426+shared+edge.cytable" sourceJoinKey="SUID" targetTable="326467-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyEdge-Results+for+Analysis1+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="edge-label" sourceColumn="edge-label" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyEdge-326426+shared+edge.cytable" sourceJoinKey="SUID" targetTable="326467-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyEdge-Results+for+Analysis1+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="EVIDENCE_CODE" sourceColumn="EVIDENCE_CODE" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyEdge-326426+shared+edge.cytable" sourceJoinKey="SUID" targetTable="326467-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyEdge-Results+for+Analysis1+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="SOURCE_NAME" sourceColumn="SOURCE_NAME" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyEdge-326426+shared+edge.cytable" sourceJoinKey="SUID" targetTable="326467-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyEdge-Results+for+Analysis1+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="TARGET_NAME" sourceColumn="TARGET_NAME" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyEdge-326426+shared+edge.cytable" sourceJoinKey="SUID" targetTable="326467-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyEdge-Results+for+Analysis1+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="INITIAL_SOURCE_NAME" sourceColumn="INITIAL_SOURCE_NAME" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyEdge-326426+shared+edge.cytable" sourceJoinKey="SUID" targetTable="326467-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyEdge-Results+for+Analysis1+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="INITIAL_TARGET_NAME" sourceColumn="INITIAL_TARGET_NAME" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyEdge-326426+shared+edge.cytable" sourceJoinKey="SUID" targetTable="326467-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyEdge-Results+for+Analysis1+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="EDGE_UNIQUE_SUID" sourceColumn="EDGE_UNIQUE_SUID" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyEdge-326426+shared+edge.cytable" sourceJoinKey="SUID" targetTable="326467-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyEdge-Results+for+Analysis1+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="SOURCE_SYMBOL_NAME" sourceColumn="SOURCE_SYMBOL_NAME" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyEdge-326426+shared+edge.cytable" sourceJoinKey="SUID" targetTable="326467-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyEdge-Results+for+Analysis1+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="TARGET_SYMBOL_NAME" sourceColumn="TARGET_SYMBOL_NAME" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyEdge-326426+shared+edge.cytable" sourceJoinKey="SUID" targetTable="326467-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyEdge-Results+for+Analysis1+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="shared name" sourceColumn="shared name" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNetwork-326426+shared+network.cytable" sourceJoinKey="SUID" targetTable="326426-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNetwork-326426+default+network.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="shared name" sourceColumn="shared name" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyEdge-326426+shared+edge.cytable" sourceJoinKey="SUID" targetTable="326426-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyEdge-326426+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="shared interaction" sourceColumn="shared interaction" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyEdge-326426+shared+edge.cytable" sourceJoinKey="SUID" targetTable="326426-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyEdge-326426+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="UNIQUE_ID" sourceColumn="UNIQUE_ID" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyEdge-326426+shared+edge.cytable" sourceJoinKey="SUID" targetTable="326426-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyEdge-326426+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="INTERACTION_TYPE" sourceColumn="INTERACTION_TYPE" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyEdge-326426+shared+edge.cytable" sourceJoinKey="SUID" targetTable="326426-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyEdge-326426+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="KappaScore" sourceColumn="KappaScore" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyEdge-326426+shared+edge.cytable" sourceJoinKey="SUID" targetTable="326426-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyEdge-326426+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Regulates Source" sourceColumn="Regulates Source" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyEdge-326426+shared+edge.cytable" sourceJoinKey="SUID" targetTable="326426-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyEdge-326426+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Regulates Target" sourceColumn="Regulates Target" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyEdge-326426+shared+edge.cytable" sourceJoinKey="SUID" targetTable="326426-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyEdge-326426+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="SIGNUM" sourceColumn="SIGNUM" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyEdge-326426+shared+edge.cytable" sourceJoinKey="SUID" targetTable="326426-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyEdge-326426+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="ACTION_TYPE" sourceColumn="ACTION_TYPE" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyEdge-326426+shared+edge.cytable" sourceJoinKey="SUID" targetTable="326426-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyEdge-326426+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="ACTION_SCORE" sourceColumn="ACTION_SCORE" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyEdge-326426+shared+edge.cytable" sourceJoinKey="SUID" targetTable="326426-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyEdge-326426+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="ACTION_DIRECTION" sourceColumn="ACTION_DIRECTION" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyEdge-326426+shared+edge.cytable" sourceJoinKey="SUID" targetTable="326426-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyEdge-326426+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="edge-label" sourceColumn="edge-label" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyEdge-326426+shared+edge.cytable" sourceJoinKey="SUID" targetTable="326426-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyEdge-326426+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="EVIDENCE_CODE" sourceColumn="EVIDENCE_CODE" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyEdge-326426+shared+edge.cytable" sourceJoinKey="SUID" targetTable="326426-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyEdge-326426+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="SOURCE_NAME" sourceColumn="SOURCE_NAME" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyEdge-326426+shared+edge.cytable" sourceJoinKey="SUID" targetTable="326426-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyEdge-326426+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="TARGET_NAME" sourceColumn="TARGET_NAME" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyEdge-326426+shared+edge.cytable" sourceJoinKey="SUID" targetTable="326426-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyEdge-326426+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="INITIAL_SOURCE_NAME" sourceColumn="INITIAL_SOURCE_NAME" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyEdge-326426+shared+edge.cytable" sourceJoinKey="SUID" targetTable="326426-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyEdge-326426+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="INITIAL_TARGET_NAME" sourceColumn="INITIAL_TARGET_NAME" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyEdge-326426+shared+edge.cytable" sourceJoinKey="SUID" targetTable="326426-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyEdge-326426+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="EDGE_UNIQUE_SUID" sourceColumn="EDGE_UNIQUE_SUID" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyEdge-326426+shared+edge.cytable" sourceJoinKey="SUID" targetTable="326426-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyEdge-326426+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="SOURCE_SYMBOL_NAME" sourceColumn="SOURCE_SYMBOL_NAME" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyEdge-326426+shared+edge.cytable" sourceJoinKey="SUID" targetTable="326426-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyEdge-326426+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="TARGET_SYMBOL_NAME" sourceColumn="TARGET_SYMBOL_NAME" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyEdge-326426+shared+edge.cytable" sourceJoinKey="SUID" targetTable="326426-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyEdge-326426+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="shared name" sourceColumn="shared name" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyNode-323178+shared+node.cytable" sourceJoinKey="SUID" targetTable="323178-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyNode-323178+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="UNIQUE_ID" sourceColumn="UNIQUE_ID" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyNode-323178+shared+node.cytable" sourceJoinKey="SUID" targetTable="323178-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyNode-323178+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="ENSEMBL_GENE_ID" sourceColumn="ENSEMBL_GENE_ID" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyNode-323178+shared+node.cytable" sourceJoinKey="SUID" targetTable="323178-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyNode-323178+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="UniProtKB_AC" sourceColumn="UniProtKB_AC" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyNode-323178+shared+node.cytable" sourceJoinKey="SUID" targetTable="323178-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyNode-323178+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Input Gene ID" sourceColumn="Input Gene ID" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyNode-323178+shared+node.cytable" sourceJoinKey="SUID" targetTable="323178-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyNode-323178+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="GeneType" sourceColumn="GeneType" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyNode-323178+shared+node.cytable" sourceJoinKey="SUID" targetTable="323178-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyNode-323178+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="ID" sourceColumn="ID" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyNode-323178+shared+node.cytable" sourceJoinKey="SUID" targetTable="323178-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyNode-323178+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Ontology Source" sourceColumn="Ontology Source" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyNode-323178+shared+node.cytable" sourceJoinKey="SUID" targetTable="323178-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyNode-323178+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Term" sourceColumn="Term" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyNode-323178+shared+node.cytable" sourceJoinKey="SUID" targetTable="323178-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyNode-323178+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="GOLevels" sourceColumn="GOLevels" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyNode-323178+shared+node.cytable" sourceJoinKey="SUID" targetTable="323178-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyNode-323178+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="GOGroups" sourceColumn="GOGroups" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyNode-323178+shared+node.cytable" sourceJoinKey="SUID" targetTable="323178-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyNode-323178+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Nr. Genes" sourceColumn="Nr. Genes" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyNode-323178+shared+node.cytable" sourceJoinKey="SUID" targetTable="323178-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyNode-323178+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="% Associated Genes" sourceColumn="% Associated Genes" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyNode-323178+shared+node.cytable" sourceJoinKey="SUID" targetTable="323178-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyNode-323178+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Term PValue" sourceColumn="Term PValue" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyNode-323178+shared+node.cytable" sourceJoinKey="SUID" targetTable="323178-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyNode-323178+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Group PValue" sourceColumn="Group PValue" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyNode-323178+shared+node.cytable" sourceJoinKey="SUID" targetTable="323178-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyNode-323178+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Associated Genes Found" sourceColumn="Associated Genes Found" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyNode-323178+shared+node.cytable" sourceJoinKey="SUID" targetTable="323178-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyNode-323178+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="All Associated Genes" sourceColumn="All Associated Genes" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyNode-323178+shared+node.cytable" sourceJoinKey="SUID" targetTable="323178-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyNode-323178+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="OverViewTerm" sourceColumn="OverViewTerm" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyNode-323178+shared+node.cytable" sourceJoinKey="SUID" targetTable="323178-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyNode-323178+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Cluster" sourceColumn="Cluster" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyNode-323178+shared+node.cytable" sourceJoinKey="SUID" targetTable="323178-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyNode-323178+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Common Genes" sourceColumn="Common Genes" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyNode-323178+shared+node.cytable" sourceJoinKey="SUID" targetTable="323178-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyNode-323178+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="%Genes Cluster #" sourceColumn="%Genes Cluster #" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyNode-323178+shared+node.cytable" sourceJoinKey="SUID" targetTable="323178-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyNode-323178+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="% Common Gene" sourceColumn="% Common Gene" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyNode-323178+shared+node.cytable" sourceJoinKey="SUID" targetTable="323178-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyNode-323178+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="CEREBRAL_LOCALIZATION_INFO" sourceColumn="CEREBRAL_LOCALIZATION_INFO" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyNode-323178+shared+node.cytable" sourceJoinKey="SUID" targetTable="323178-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyNode-323178+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="CEREBRAL_LOCALIZATION_INFO_ALL" sourceColumn="CEREBRAL_LOCALIZATION_INFO_ALL" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyNode-323178+shared+node.cytable" sourceJoinKey="SUID" targetTable="323178-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyNode-323178+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="CEREBRAL_DOWNSTRAM_INFO" sourceColumn="CEREBRAL_DOWNSTRAM_INFO" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyNode-323178+shared+node.cytable" sourceJoinKey="SUID" targetTable="323178-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyNode-323178+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="CEREBRAL_DOWNSTRAM_INFO_ALL" sourceColumn="CEREBRAL_DOWNSTRAM_INFO_ALL" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyNode-323178+shared+node.cytable" sourceJoinKey="SUID" targetTable="323178-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyNode-323178+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Term PValue Corrected with Bonferroni step down" sourceColumn="Term PValue Corrected with Bonferroni step down" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyNode-323178+shared+node.cytable" sourceJoinKey="SUID" targetTable="323178-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyNode-323178+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Group PValue Corrected with Bonferroni step down" sourceColumn="Group PValue Corrected with Bonferroni step down" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyNode-323178+shared+node.cytable" sourceJoinKey="SUID" targetTable="323178-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyNode-323178+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="shared name" sourceColumn="shared name" sourceTable="2267-RNA%2DSeq+Networks/SHARED_ATTRS-org.cytoscape.model.CyNetwork-2267+shared+network.cytable" sourceJoinKey="SUID" targetTable="2308-Hypothyroid+Network/LOCAL_ATTRS-org.cytoscape.model.CyNetwork-Hypothyroid+Network+default+network.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="shared name" sourceColumn="shared name" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyEdge-76521+shared+edge.cytable" sourceJoinKey="SUID" targetTable="76562-Results+for+Analysis9/LOCAL_ATTRS-org.cytoscape.model.CyEdge-76562+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="shared interaction" sourceColumn="shared interaction" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyEdge-76521+shared+edge.cytable" sourceJoinKey="SUID" targetTable="76562-Results+for+Analysis9/LOCAL_ATTRS-org.cytoscape.model.CyEdge-76562+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="UNIQUE_ID" sourceColumn="UNIQUE_ID" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyEdge-76521+shared+edge.cytable" sourceJoinKey="SUID" targetTable="76562-Results+for+Analysis9/LOCAL_ATTRS-org.cytoscape.model.CyEdge-76562+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="INTERACTION_TYPE" sourceColumn="INTERACTION_TYPE" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyEdge-76521+shared+edge.cytable" sourceJoinKey="SUID" targetTable="76562-Results+for+Analysis9/LOCAL_ATTRS-org.cytoscape.model.CyEdge-76562+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="KappaScore" sourceColumn="KappaScore" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyEdge-76521+shared+edge.cytable" sourceJoinKey="SUID" targetTable="76562-Results+for+Analysis9/LOCAL_ATTRS-org.cytoscape.model.CyEdge-76562+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Regulates Source" sourceColumn="Regulates Source" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyEdge-76521+shared+edge.cytable" sourceJoinKey="SUID" targetTable="76562-Results+for+Analysis9/LOCAL_ATTRS-org.cytoscape.model.CyEdge-76562+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Regulates Target" sourceColumn="Regulates Target" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyEdge-76521+shared+edge.cytable" sourceJoinKey="SUID" targetTable="76562-Results+for+Analysis9/LOCAL_ATTRS-org.cytoscape.model.CyEdge-76562+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="SIGNUM" sourceColumn="SIGNUM" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyEdge-76521+shared+edge.cytable" sourceJoinKey="SUID" targetTable="76562-Results+for+Analysis9/LOCAL_ATTRS-org.cytoscape.model.CyEdge-76562+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="ACTION_TYPE" sourceColumn="ACTION_TYPE" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyEdge-76521+shared+edge.cytable" sourceJoinKey="SUID" targetTable="76562-Results+for+Analysis9/LOCAL_ATTRS-org.cytoscape.model.CyEdge-76562+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="ACTION_SCORE" sourceColumn="ACTION_SCORE" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyEdge-76521+shared+edge.cytable" sourceJoinKey="SUID" targetTable="76562-Results+for+Analysis9/LOCAL_ATTRS-org.cytoscape.model.CyEdge-76562+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="ACTION_DIRECTION" sourceColumn="ACTION_DIRECTION" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyEdge-76521+shared+edge.cytable" sourceJoinKey="SUID" targetTable="76562-Results+for+Analysis9/LOCAL_ATTRS-org.cytoscape.model.CyEdge-76562+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="edge-label" sourceColumn="edge-label" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyEdge-76521+shared+edge.cytable" sourceJoinKey="SUID" targetTable="76562-Results+for+Analysis9/LOCAL_ATTRS-org.cytoscape.model.CyEdge-76562+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="EVIDENCE_CODE" sourceColumn="EVIDENCE_CODE" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyEdge-76521+shared+edge.cytable" sourceJoinKey="SUID" targetTable="76562-Results+for+Analysis9/LOCAL_ATTRS-org.cytoscape.model.CyEdge-76562+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="SOURCE_NAME" sourceColumn="SOURCE_NAME" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyEdge-76521+shared+edge.cytable" sourceJoinKey="SUID" targetTable="76562-Results+for+Analysis9/LOCAL_ATTRS-org.cytoscape.model.CyEdge-76562+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="TARGET_NAME" sourceColumn="TARGET_NAME" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyEdge-76521+shared+edge.cytable" sourceJoinKey="SUID" targetTable="76562-Results+for+Analysis9/LOCAL_ATTRS-org.cytoscape.model.CyEdge-76562+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="INITIAL_SOURCE_NAME" sourceColumn="INITIAL_SOURCE_NAME" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyEdge-76521+shared+edge.cytable" sourceJoinKey="SUID" targetTable="76562-Results+for+Analysis9/LOCAL_ATTRS-org.cytoscape.model.CyEdge-76562+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="INITIAL_TARGET_NAME" sourceColumn="INITIAL_TARGET_NAME" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyEdge-76521+shared+edge.cytable" sourceJoinKey="SUID" targetTable="76562-Results+for+Analysis9/LOCAL_ATTRS-org.cytoscape.model.CyEdge-76562+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="EDGE_UNIQUE_SUID" sourceColumn="EDGE_UNIQUE_SUID" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyEdge-76521+shared+edge.cytable" sourceJoinKey="SUID" targetTable="76562-Results+for+Analysis9/LOCAL_ATTRS-org.cytoscape.model.CyEdge-76562+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="SOURCE_SYMBOL_NAME" sourceColumn="SOURCE_SYMBOL_NAME" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyEdge-76521+shared+edge.cytable" sourceJoinKey="SUID" targetTable="76562-Results+for+Analysis9/LOCAL_ATTRS-org.cytoscape.model.CyEdge-76562+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="TARGET_SYMBOL_NAME" sourceColumn="TARGET_SYMBOL_NAME" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyEdge-76521+shared+edge.cytable" sourceJoinKey="SUID" targetTable="76562-Results+for+Analysis9/LOCAL_ATTRS-org.cytoscape.model.CyEdge-76562+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="shared name" sourceColumn="shared name" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326467-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis1+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="UNIQUE_ID" sourceColumn="UNIQUE_ID" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326467-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis1+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="ENSEMBL_GENE_ID" sourceColumn="ENSEMBL_GENE_ID" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326467-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis1+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="UniProtKB_AC" sourceColumn="UniProtKB_AC" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326467-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis1+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Input Gene ID" sourceColumn="Input Gene ID" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326467-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis1+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="GeneType" sourceColumn="GeneType" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326467-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis1+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="ID" sourceColumn="ID" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326467-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis1+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Ontology Source" sourceColumn="Ontology Source" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326467-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis1+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Term" sourceColumn="Term" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326467-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis1+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="GOLevels" sourceColumn="GOLevels" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326467-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis1+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="GOGroups" sourceColumn="GOGroups" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326467-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis1+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Nr. Genes" sourceColumn="Nr. Genes" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326467-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis1+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="% Associated Genes" sourceColumn="% Associated Genes" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326467-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis1+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Term PValue" sourceColumn="Term PValue" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326467-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis1+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Group PValue" sourceColumn="Group PValue" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326467-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis1+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Associated Genes Found" sourceColumn="Associated Genes Found" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326467-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis1+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="All Associated Genes" sourceColumn="All Associated Genes" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326467-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis1+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="OverViewTerm" sourceColumn="OverViewTerm" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326467-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis1+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Cluster" sourceColumn="Cluster" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326467-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis1+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Common Genes" sourceColumn="Common Genes" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326467-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis1+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="%Genes Cluster #" sourceColumn="%Genes Cluster #" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326467-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis1+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="% Common Gene" sourceColumn="% Common Gene" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326467-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis1+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="CEREBRAL_LOCALIZATION_INFO" sourceColumn="CEREBRAL_LOCALIZATION_INFO" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326467-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis1+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="CEREBRAL_LOCALIZATION_INFO_ALL" sourceColumn="CEREBRAL_LOCALIZATION_INFO_ALL" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326467-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis1+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="CEREBRAL_DOWNSTRAM_INFO" sourceColumn="CEREBRAL_DOWNSTRAM_INFO" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326467-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis1+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="CEREBRAL_DOWNSTRAM_INFO_ALL" sourceColumn="CEREBRAL_DOWNSTRAM_INFO_ALL" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326467-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis1+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Term PValue Corrected with Bonferroni step down" sourceColumn="Term PValue Corrected with Bonferroni step down" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326467-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis1+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Group PValue Corrected with Bonferroni step down" sourceColumn="Group PValue Corrected with Bonferroni step down" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326467-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis1+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Genes Cluster #1" sourceColumn="Genes Cluster #1" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326467-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis1+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="%Genes Cluster #1" sourceColumn="%Genes Cluster #1" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326467-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis1+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Genes Cluster #2" sourceColumn="Genes Cluster #2" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326467-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis1+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="%Genes Cluster #2" sourceColumn="%Genes Cluster #2" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326467-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis1+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="shared name" sourceColumn="shared name" sourceTable="2267-RNA%2DSeq+Networks/SHARED_ATTRS-org.cytoscape.model.CyNetwork-2267+shared+network.cytable" sourceJoinKey="SUID" targetTable="2267-RNA%2DSeq+Networks/LOCAL_ATTRS-org.cytoscape.model.CyNetwork-2267+default+network.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="shared name" sourceColumn="shared name" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyEdge-323178+shared+edge.cytable" sourceJoinKey="SUID" targetTable="323219-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyEdge-Results+for+Analysis0+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="shared interaction" sourceColumn="shared interaction" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyEdge-323178+shared+edge.cytable" sourceJoinKey="SUID" targetTable="323219-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyEdge-Results+for+Analysis0+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="UNIQUE_ID" sourceColumn="UNIQUE_ID" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyEdge-323178+shared+edge.cytable" sourceJoinKey="SUID" targetTable="323219-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyEdge-Results+for+Analysis0+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="INTERACTION_TYPE" sourceColumn="INTERACTION_TYPE" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyEdge-323178+shared+edge.cytable" sourceJoinKey="SUID" targetTable="323219-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyEdge-Results+for+Analysis0+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="KappaScore" sourceColumn="KappaScore" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyEdge-323178+shared+edge.cytable" sourceJoinKey="SUID" targetTable="323219-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyEdge-Results+for+Analysis0+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Regulates Source" sourceColumn="Regulates Source" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyEdge-323178+shared+edge.cytable" sourceJoinKey="SUID" targetTable="323219-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyEdge-Results+for+Analysis0+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Regulates Target" sourceColumn="Regulates Target" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyEdge-323178+shared+edge.cytable" sourceJoinKey="SUID" targetTable="323219-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyEdge-Results+for+Analysis0+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="SIGNUM" sourceColumn="SIGNUM" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyEdge-323178+shared+edge.cytable" sourceJoinKey="SUID" targetTable="323219-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyEdge-Results+for+Analysis0+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="ACTION_TYPE" sourceColumn="ACTION_TYPE" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyEdge-323178+shared+edge.cytable" sourceJoinKey="SUID" targetTable="323219-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyEdge-Results+for+Analysis0+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="ACTION_SCORE" sourceColumn="ACTION_SCORE" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyEdge-323178+shared+edge.cytable" sourceJoinKey="SUID" targetTable="323219-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyEdge-Results+for+Analysis0+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="ACTION_DIRECTION" sourceColumn="ACTION_DIRECTION" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyEdge-323178+shared+edge.cytable" sourceJoinKey="SUID" targetTable="323219-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyEdge-Results+for+Analysis0+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="edge-label" sourceColumn="edge-label" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyEdge-323178+shared+edge.cytable" sourceJoinKey="SUID" targetTable="323219-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyEdge-Results+for+Analysis0+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="EVIDENCE_CODE" sourceColumn="EVIDENCE_CODE" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyEdge-323178+shared+edge.cytable" sourceJoinKey="SUID" targetTable="323219-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyEdge-Results+for+Analysis0+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="SOURCE_NAME" sourceColumn="SOURCE_NAME" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyEdge-323178+shared+edge.cytable" sourceJoinKey="SUID" targetTable="323219-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyEdge-Results+for+Analysis0+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="TARGET_NAME" sourceColumn="TARGET_NAME" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyEdge-323178+shared+edge.cytable" sourceJoinKey="SUID" targetTable="323219-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyEdge-Results+for+Analysis0+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="INITIAL_SOURCE_NAME" sourceColumn="INITIAL_SOURCE_NAME" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyEdge-323178+shared+edge.cytable" sourceJoinKey="SUID" targetTable="323219-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyEdge-Results+for+Analysis0+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="INITIAL_TARGET_NAME" sourceColumn="INITIAL_TARGET_NAME" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyEdge-323178+shared+edge.cytable" sourceJoinKey="SUID" targetTable="323219-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyEdge-Results+for+Analysis0+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="EDGE_UNIQUE_SUID" sourceColumn="EDGE_UNIQUE_SUID" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyEdge-323178+shared+edge.cytable" sourceJoinKey="SUID" targetTable="323219-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyEdge-Results+for+Analysis0+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="SOURCE_SYMBOL_NAME" sourceColumn="SOURCE_SYMBOL_NAME" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyEdge-323178+shared+edge.cytable" sourceJoinKey="SUID" targetTable="323219-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyEdge-Results+for+Analysis0+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="TARGET_SYMBOL_NAME" sourceColumn="TARGET_SYMBOL_NAME" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyEdge-323178+shared+edge.cytable" sourceJoinKey="SUID" targetTable="323219-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyEdge-Results+for+Analysis0+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="shared name" sourceColumn="shared name" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326426-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-326426+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="UNIQUE_ID" sourceColumn="UNIQUE_ID" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326426-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-326426+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="ENSEMBL_GENE_ID" sourceColumn="ENSEMBL_GENE_ID" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326426-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-326426+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="UniProtKB_AC" sourceColumn="UniProtKB_AC" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326426-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-326426+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Input Gene ID" sourceColumn="Input Gene ID" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326426-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-326426+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="GeneType" sourceColumn="GeneType" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326426-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-326426+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="ID" sourceColumn="ID" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326426-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-326426+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Ontology Source" sourceColumn="Ontology Source" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326426-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-326426+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Term" sourceColumn="Term" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326426-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-326426+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="GOLevels" sourceColumn="GOLevels" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326426-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-326426+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="GOGroups" sourceColumn="GOGroups" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326426-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-326426+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Nr. Genes" sourceColumn="Nr. Genes" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326426-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-326426+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="% Associated Genes" sourceColumn="% Associated Genes" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326426-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-326426+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Term PValue" sourceColumn="Term PValue" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326426-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-326426+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Group PValue" sourceColumn="Group PValue" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326426-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-326426+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Associated Genes Found" sourceColumn="Associated Genes Found" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326426-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-326426+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="All Associated Genes" sourceColumn="All Associated Genes" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326426-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-326426+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="OverViewTerm" sourceColumn="OverViewTerm" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326426-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-326426+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Cluster" sourceColumn="Cluster" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326426-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-326426+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Common Genes" sourceColumn="Common Genes" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326426-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-326426+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="%Genes Cluster #" sourceColumn="%Genes Cluster #" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326426-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-326426+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="% Common Gene" sourceColumn="% Common Gene" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326426-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-326426+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="CEREBRAL_LOCALIZATION_INFO" sourceColumn="CEREBRAL_LOCALIZATION_INFO" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326426-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-326426+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="CEREBRAL_LOCALIZATION_INFO_ALL" sourceColumn="CEREBRAL_LOCALIZATION_INFO_ALL" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326426-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-326426+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="CEREBRAL_DOWNSTRAM_INFO" sourceColumn="CEREBRAL_DOWNSTRAM_INFO" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326426-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-326426+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="CEREBRAL_DOWNSTRAM_INFO_ALL" sourceColumn="CEREBRAL_DOWNSTRAM_INFO_ALL" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326426-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-326426+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Term PValue Corrected with Bonferroni step down" sourceColumn="Term PValue Corrected with Bonferroni step down" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326426-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-326426+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Group PValue Corrected with Bonferroni step down" sourceColumn="Group PValue Corrected with Bonferroni step down" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326426-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-326426+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Genes Cluster #1" sourceColumn="Genes Cluster #1" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326426-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-326426+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="%Genes Cluster #1" sourceColumn="%Genes Cluster #1" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326426-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-326426+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Genes Cluster #2" sourceColumn="Genes Cluster #2" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326426-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-326426+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="%Genes Cluster #2" sourceColumn="%Genes Cluster #2" sourceTable="326426-Results+for+Analysis1/SHARED_ATTRS-org.cytoscape.model.CyNode-326426+shared+node.cytable" sourceJoinKey="SUID" targetTable="326426-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-326426+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="shared name" sourceColumn="shared name" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyNetwork-76521+shared+network.cytable" sourceJoinKey="SUID" targetTable="76562-Results+for+Analysis9/LOCAL_ATTRS-org.cytoscape.model.CyNetwork-76562+default+network.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="shared name" sourceColumn="shared name" sourceTable="2267-RNA%2DSeq+Networks/SHARED_ATTRS-org.cytoscape.model.CyEdge-2267+shared+edge.cytable" sourceJoinKey="SUID" targetTable="2267-RNA%2DSeq+Networks/LOCAL_ATTRS-org.cytoscape.model.CyEdge-2267+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="shared interaction" sourceColumn="shared interaction" sourceTable="2267-RNA%2DSeq+Networks/SHARED_ATTRS-org.cytoscape.model.CyEdge-2267+shared+edge.cytable" sourceJoinKey="SUID" targetTable="2267-RNA%2DSeq+Networks/LOCAL_ATTRS-org.cytoscape.model.CyEdge-2267+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="shared name" sourceColumn="shared name" sourceTable="323178-Results+for+Analysis0/SHARED_ATTRS-org.cytoscape.model.CyNetwork-323178+shared+network.cytable" sourceJoinKey="SUID" targetTable="323219-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyNetwork-Results+for+Analysis0+default+network.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="shared name" sourceColumn="shared name" sourceTable="2267-RNA%2DSeq+Networks/SHARED_ATTRS-org.cytoscape.model.CyNode-2267+shared+node.cytable" sourceJoinKey="SUID" targetTable="2267-RNA%2DSeq+Networks/LOCAL_ATTRS-org.cytoscape.model.CyNode-2267+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="id" sourceColumn="id" sourceTable="2267-RNA%2DSeq+Networks/SHARED_ATTRS-org.cytoscape.model.CyNode-2267+shared+node.cytable" sourceJoinKey="SUID" targetTable="2267-RNA%2DSeq+Networks/LOCAL_ATTRS-org.cytoscape.model.CyNode-2267+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="GeneSymbol" sourceColumn="GeneSymbol" sourceTable="2267-RNA%2DSeq+Networks/SHARED_ATTRS-org.cytoscape.model.CyNode-2267+shared+node.cytable" sourceJoinKey="SUID" targetTable="2267-RNA%2DSeq+Networks/LOCAL_ATTRS-org.cytoscape.model.CyNode-2267+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Significance" sourceColumn="Significance" sourceTable="2267-RNA%2DSeq+Networks/SHARED_ATTRS-org.cytoscape.model.CyNode-2267+shared+node.cytable" sourceJoinKey="SUID" targetTable="2267-RNA%2DSeq+Networks/LOCAL_ATTRS-org.cytoscape.model.CyNode-2267+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="log2FC" sourceColumn="log2FC" sourceTable="2267-RNA%2DSeq+Networks/SHARED_ATTRS-org.cytoscape.model.CyNode-2267+shared+node.cytable" sourceJoinKey="SUID" targetTable="2267-RNA%2DSeq+Networks/LOCAL_ATTRS-org.cytoscape.model.CyNode-2267+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="shared name" sourceColumn="shared name" sourceTable="2267-RNA%2DSeq+Networks/SHARED_ATTRS-org.cytoscape.model.CyNode-2267+shared+node.cytable" sourceJoinKey="SUID" targetTable="2308-Hypothyroid+Network/LOCAL_ATTRS-org.cytoscape.model.CyNode-Hypothyroid+Network+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="id" sourceColumn="id" sourceTable="2267-RNA%2DSeq+Networks/SHARED_ATTRS-org.cytoscape.model.CyNode-2267+shared+node.cytable" sourceJoinKey="SUID" targetTable="2308-Hypothyroid+Network/LOCAL_ATTRS-org.cytoscape.model.CyNode-Hypothyroid+Network+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="GeneSymbol" sourceColumn="GeneSymbol" sourceTable="2267-RNA%2DSeq+Networks/SHARED_ATTRS-org.cytoscape.model.CyNode-2267+shared+node.cytable" sourceJoinKey="SUID" targetTable="2308-Hypothyroid+Network/LOCAL_ATTRS-org.cytoscape.model.CyNode-Hypothyroid+Network+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Significance" sourceColumn="Significance" sourceTable="2267-RNA%2DSeq+Networks/SHARED_ATTRS-org.cytoscape.model.CyNode-2267+shared+node.cytable" sourceJoinKey="SUID" targetTable="2308-Hypothyroid+Network/LOCAL_ATTRS-org.cytoscape.model.CyNode-Hypothyroid+Network+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="log2FC" sourceColumn="log2FC" sourceTable="2267-RNA%2DSeq+Networks/SHARED_ATTRS-org.cytoscape.model.CyNode-2267+shared+node.cytable" sourceJoinKey="SUID" targetTable="2308-Hypothyroid+Network/LOCAL_ATTRS-org.cytoscape.model.CyNode-Hypothyroid+Network+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="shared name" sourceColumn="shared name" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyNode-76521+shared+node.cytable" sourceJoinKey="SUID" targetTable="76521-76521/LOCAL_ATTRS-org.cytoscape.model.CyNode-76521+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="UNIQUE_ID" sourceColumn="UNIQUE_ID" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyNode-76521+shared+node.cytable" sourceJoinKey="SUID" targetTable="76521-76521/LOCAL_ATTRS-org.cytoscape.model.CyNode-76521+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="ENSEMBL_GENE_ID" sourceColumn="ENSEMBL_GENE_ID" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyNode-76521+shared+node.cytable" sourceJoinKey="SUID" targetTable="76521-76521/LOCAL_ATTRS-org.cytoscape.model.CyNode-76521+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="UniProtKB_AC" sourceColumn="UniProtKB_AC" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyNode-76521+shared+node.cytable" sourceJoinKey="SUID" targetTable="76521-76521/LOCAL_ATTRS-org.cytoscape.model.CyNode-76521+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Input Gene ID" sourceColumn="Input Gene ID" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyNode-76521+shared+node.cytable" sourceJoinKey="SUID" targetTable="76521-76521/LOCAL_ATTRS-org.cytoscape.model.CyNode-76521+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="GeneType" sourceColumn="GeneType" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyNode-76521+shared+node.cytable" sourceJoinKey="SUID" targetTable="76521-76521/LOCAL_ATTRS-org.cytoscape.model.CyNode-76521+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="ID" sourceColumn="ID" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyNode-76521+shared+node.cytable" sourceJoinKey="SUID" targetTable="76521-76521/LOCAL_ATTRS-org.cytoscape.model.CyNode-76521+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Ontology Source" sourceColumn="Ontology Source" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyNode-76521+shared+node.cytable" sourceJoinKey="SUID" targetTable="76521-76521/LOCAL_ATTRS-org.cytoscape.model.CyNode-76521+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Term" sourceColumn="Term" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyNode-76521+shared+node.cytable" sourceJoinKey="SUID" targetTable="76521-76521/LOCAL_ATTRS-org.cytoscape.model.CyNode-76521+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="GOLevels" sourceColumn="GOLevels" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyNode-76521+shared+node.cytable" sourceJoinKey="SUID" targetTable="76521-76521/LOCAL_ATTRS-org.cytoscape.model.CyNode-76521+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="GOGroups" sourceColumn="GOGroups" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyNode-76521+shared+node.cytable" sourceJoinKey="SUID" targetTable="76521-76521/LOCAL_ATTRS-org.cytoscape.model.CyNode-76521+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Nr. Genes" sourceColumn="Nr. Genes" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyNode-76521+shared+node.cytable" sourceJoinKey="SUID" targetTable="76521-76521/LOCAL_ATTRS-org.cytoscape.model.CyNode-76521+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="% Associated Genes" sourceColumn="% Associated Genes" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyNode-76521+shared+node.cytable" sourceJoinKey="SUID" targetTable="76521-76521/LOCAL_ATTRS-org.cytoscape.model.CyNode-76521+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Term PValue" sourceColumn="Term PValue" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyNode-76521+shared+node.cytable" sourceJoinKey="SUID" targetTable="76521-76521/LOCAL_ATTRS-org.cytoscape.model.CyNode-76521+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Group PValue" sourceColumn="Group PValue" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyNode-76521+shared+node.cytable" sourceJoinKey="SUID" targetTable="76521-76521/LOCAL_ATTRS-org.cytoscape.model.CyNode-76521+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Associated Genes Found" sourceColumn="Associated Genes Found" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyNode-76521+shared+node.cytable" sourceJoinKey="SUID" targetTable="76521-76521/LOCAL_ATTRS-org.cytoscape.model.CyNode-76521+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="All Associated Genes" sourceColumn="All Associated Genes" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyNode-76521+shared+node.cytable" sourceJoinKey="SUID" targetTable="76521-76521/LOCAL_ATTRS-org.cytoscape.model.CyNode-76521+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="OverViewTerm" sourceColumn="OverViewTerm" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyNode-76521+shared+node.cytable" sourceJoinKey="SUID" targetTable="76521-76521/LOCAL_ATTRS-org.cytoscape.model.CyNode-76521+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Cluster" sourceColumn="Cluster" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyNode-76521+shared+node.cytable" sourceJoinKey="SUID" targetTable="76521-76521/LOCAL_ATTRS-org.cytoscape.model.CyNode-76521+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Common Genes" sourceColumn="Common Genes" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyNode-76521+shared+node.cytable" sourceJoinKey="SUID" targetTable="76521-76521/LOCAL_ATTRS-org.cytoscape.model.CyNode-76521+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="%Genes Cluster #" sourceColumn="%Genes Cluster #" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyNode-76521+shared+node.cytable" sourceJoinKey="SUID" targetTable="76521-76521/LOCAL_ATTRS-org.cytoscape.model.CyNode-76521+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="% Common Gene" sourceColumn="% Common Gene" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyNode-76521+shared+node.cytable" sourceJoinKey="SUID" targetTable="76521-76521/LOCAL_ATTRS-org.cytoscape.model.CyNode-76521+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="CEREBRAL_LOCALIZATION_INFO" sourceColumn="CEREBRAL_LOCALIZATION_INFO" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyNode-76521+shared+node.cytable" sourceJoinKey="SUID" targetTable="76521-76521/LOCAL_ATTRS-org.cytoscape.model.CyNode-76521+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="CEREBRAL_LOCALIZATION_INFO_ALL" sourceColumn="CEREBRAL_LOCALIZATION_INFO_ALL" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyNode-76521+shared+node.cytable" sourceJoinKey="SUID" targetTable="76521-76521/LOCAL_ATTRS-org.cytoscape.model.CyNode-76521+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="CEREBRAL_DOWNSTRAM_INFO" sourceColumn="CEREBRAL_DOWNSTRAM_INFO" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyNode-76521+shared+node.cytable" sourceJoinKey="SUID" targetTable="76521-76521/LOCAL_ATTRS-org.cytoscape.model.CyNode-76521+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="CEREBRAL_DOWNSTRAM_INFO_ALL" sourceColumn="CEREBRAL_DOWNSTRAM_INFO_ALL" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyNode-76521+shared+node.cytable" sourceJoinKey="SUID" targetTable="76521-76521/LOCAL_ATTRS-org.cytoscape.model.CyNode-76521+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Term PValue Corrected with Bonferroni step down" sourceColumn="Term PValue Corrected with Bonferroni step down" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyNode-76521+shared+node.cytable" sourceJoinKey="SUID" targetTable="76521-76521/LOCAL_ATTRS-org.cytoscape.model.CyNode-76521+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Group PValue Corrected with Bonferroni step down" sourceColumn="Group PValue Corrected with Bonferroni step down" sourceTable="76521-76521/SHARED_ATTRS-org.cytoscape.model.CyNode-76521+shared+node.cytable" sourceJoinKey="SUID" targetTable="76521-76521/LOCAL_ATTRS-org.cytoscape.model.CyNode-76521+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+    </virtualColumns>
+    <tableViews>
+        <tableView table="326467-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNetwork-Results+for+Analysis1+default+network.cytable" rendererId="org.cytoscape.view.table.renderer" tableNamespace="USER">
+            <columnView columnName="SUID">
+                <bypassValue name="COLUMN_VISIBLE" value="false"/>
+            </columnView>
+            <columnView columnName="shared name">
+                <bypassValue name="COLUMN_WIDTH" value="154"/>
+                <bypassValue name="COLUMN_GRAVITY" value="1.0"/>
+            </columnView>
+            <columnView columnName="name">
+                <bypassValue name="COLUMN_WIDTH" value="94"/>
+                <bypassValue name="COLUMN_GRAVITY" value="2.0"/>
+            </columnView>
+            <columnView columnName="selected">
+                <bypassValue name="COLUMN_EDITABLE" value="false"/>
+                <bypassValue name="COLUMN_VISIBLE" value="false"/>
+            </columnView>
+            <columnView columnName="__Annotations">
+                <bypassValue name="COLUMN_WIDTH" value="124"/>
+                <bypassValue name="COLUMN_GRAVITY" value="3.0"/>
+            </columnView>
+        </tableView>
+        <tableView table="326467-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyEdge-Results+for+Analysis1+default+edge.cytable" rendererId="org.cytoscape.view.table.renderer" tableNamespace="USER">
+            <columnView columnName="SUID">
+                <bypassValue name="COLUMN_VISIBLE" value="false"/>
+            </columnView>
+            <columnView columnName="shared name">
+                <bypassValue name="COLUMN_WIDTH" value="154"/>
+                <bypassValue name="COLUMN_GRAVITY" value="1.0"/>
+            </columnView>
+            <columnView columnName="shared interaction">
+                <bypassValue name="COLUMN_WIDTH" value="182"/>
+                <bypassValue name="COLUMN_GRAVITY" value="2.0"/>
+            </columnView>
+            <columnView columnName="name">
+                <bypassValue name="COLUMN_WIDTH" value="94"/>
+                <bypassValue name="COLUMN_GRAVITY" value="3.0"/>
+            </columnView>
+            <columnView columnName="selected">
+                <bypassValue name="COLUMN_EDITABLE" value="false"/>
+                <bypassValue name="COLUMN_VISIBLE" value="false"/>
+            </columnView>
+            <columnView columnName="interaction">
+                <bypassValue name="COLUMN_WIDTH" value="122"/>
+                <bypassValue name="COLUMN_GRAVITY" value="4.0"/>
+            </columnView>
+            <columnView columnName="UNIQUE_ID">
+                <bypassValue name="COLUMN_WIDTH" value="145"/>
+                <bypassValue name="COLUMN_GRAVITY" value="5.0"/>
+            </columnView>
+            <columnView columnName="INTERACTION_TYPE">
+                <bypassValue name="COLUMN_WIDTH" value="192"/>
+                <bypassValue name="COLUMN_GRAVITY" value="6.0"/>
+            </columnView>
+            <columnView columnName="KappaScore">
+                <bypassValue name="COLUMN_WIDTH" value="147"/>
+                <bypassValue name="COLUMN_GRAVITY" value="7.0"/>
+            </columnView>
+            <columnView columnName="Regulates Source">
+                <bypassValue name="COLUMN_WIDTH" value="177"/>
+                <bypassValue name="COLUMN_GRAVITY" value="8.0"/>
+            </columnView>
+            <columnView columnName="Regulates Target">
+                <bypassValue name="COLUMN_WIDTH" value="175"/>
+                <bypassValue name="COLUMN_GRAVITY" value="9.0"/>
+            </columnView>
+            <columnView columnName="SIGNUM">
+                <bypassValue name="COLUMN_WIDTH" value="129"/>
+                <bypassValue name="COLUMN_GRAVITY" value="10.0"/>
+            </columnView>
+            <columnView columnName="ACTION_TYPE">
+                <bypassValue name="COLUMN_WIDTH" value="158"/>
+                <bypassValue name="COLUMN_GRAVITY" value="11.0"/>
+            </columnView>
+            <columnView columnName="ACTION_SCORE">
+                <bypassValue name="COLUMN_WIDTH" value="168"/>
+                <bypassValue name="COLUMN_GRAVITY" value="12.0"/>
+            </columnView>
+            <columnView columnName="ACTION_DIRECTION">
+                <bypassValue name="COLUMN_WIDTH" value="194"/>
+                <bypassValue name="COLUMN_GRAVITY" value="13.0"/>
+            </columnView>
+            <columnView columnName="edge-label">
+                <bypassValue name="COLUMN_WIDTH" value="139"/>
+                <bypassValue name="COLUMN_GRAVITY" value="14.0"/>
+            </columnView>
+            <columnView columnName="EVIDENCE_CODE">
+                <bypassValue name="COLUMN_WIDTH" value="176"/>
+                <bypassValue name="COLUMN_GRAVITY" value="15.0"/>
+            </columnView>
+            <columnView columnName="SOURCE_NAME">
+                <bypassValue name="COLUMN_WIDTH" value="167"/>
+                <bypassValue name="COLUMN_GRAVITY" value="16.0"/>
+            </columnView>
+            <columnView columnName="TARGET_NAME">
+                <bypassValue name="COLUMN_WIDTH" value="165"/>
+                <bypassValue name="COLUMN_GRAVITY" value="17.0"/>
+            </columnView>
+            <columnView columnName="INITIAL_SOURCE_NAME">
+                <bypassValue name="COLUMN_WIDTH" value="214"/>
+                <bypassValue name="COLUMN_GRAVITY" value="18.0"/>
+            </columnView>
+            <columnView columnName="INITIAL_TARGET_NAME">
+                <bypassValue name="COLUMN_WIDTH" value="212"/>
+                <bypassValue name="COLUMN_GRAVITY" value="19.0"/>
+            </columnView>
+            <columnView columnName="EDGE_UNIQUE_SUID">
+                <bypassValue name="COLUMN_WIDTH" value="198"/>
+                <bypassValue name="COLUMN_GRAVITY" value="20.0"/>
+            </columnView>
+            <columnView columnName="SOURCE_SYMBOL_NAME">
+                <bypassValue name="COLUMN_WIDTH" value="220"/>
+                <bypassValue name="COLUMN_GRAVITY" value="21.0"/>
+            </columnView>
+            <columnView columnName="TARGET_SYMBOL_NAME">
+                <bypassValue name="COLUMN_WIDTH" value="218"/>
+                <bypassValue name="COLUMN_GRAVITY" value="22.0"/>
+            </columnView>
+        </tableView>
+        <tableView table="323219-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyNetwork-Results+for+Analysis0+default+network.cytable" rendererId="org.cytoscape.view.table.renderer" tableNamespace="USER">
+            <columnView columnName="SUID">
+                <bypassValue name="COLUMN_VISIBLE" value="false"/>
+            </columnView>
+            <columnView columnName="shared name">
+                <bypassValue name="COLUMN_WIDTH" value="154"/>
+                <bypassValue name="COLUMN_GRAVITY" value="1.0"/>
+            </columnView>
+            <columnView columnName="name">
+                <bypassValue name="COLUMN_WIDTH" value="94"/>
+                <bypassValue name="COLUMN_GRAVITY" value="2.0"/>
+            </columnView>
+            <columnView columnName="selected">
+                <bypassValue name="COLUMN_EDITABLE" value="false"/>
+                <bypassValue name="COLUMN_VISIBLE" value="false"/>
+            </columnView>
+            <columnView columnName="__Annotations">
+                <bypassValue name="COLUMN_WIDTH" value="124"/>
+                <bypassValue name="COLUMN_GRAVITY" value="3.0"/>
+            </columnView>
+        </tableView>
+        <tableView table="323219-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyEdge-Results+for+Analysis0+default+edge.cytable" rendererId="org.cytoscape.view.table.renderer" tableNamespace="USER">
+            <columnView columnName="SUID">
+                <bypassValue name="COLUMN_VISIBLE" value="false"/>
+            </columnView>
+            <columnView columnName="shared name">
+                <bypassValue name="COLUMN_WIDTH" value="154"/>
+                <bypassValue name="COLUMN_GRAVITY" value="1.0"/>
+            </columnView>
+            <columnView columnName="shared interaction">
+                <bypassValue name="COLUMN_WIDTH" value="182"/>
+                <bypassValue name="COLUMN_GRAVITY" value="2.0"/>
+            </columnView>
+            <columnView columnName="name">
+                <bypassValue name="COLUMN_WIDTH" value="94"/>
+                <bypassValue name="COLUMN_GRAVITY" value="3.0"/>
+            </columnView>
+            <columnView columnName="selected">
+                <bypassValue name="COLUMN_EDITABLE" value="false"/>
+                <bypassValue name="COLUMN_VISIBLE" value="false"/>
+            </columnView>
+            <columnView columnName="interaction">
+                <bypassValue name="COLUMN_WIDTH" value="122"/>
+                <bypassValue name="COLUMN_GRAVITY" value="4.0"/>
+            </columnView>
+            <columnView columnName="UNIQUE_ID">
+                <bypassValue name="COLUMN_WIDTH" value="145"/>
+                <bypassValue name="COLUMN_GRAVITY" value="5.0"/>
+            </columnView>
+            <columnView columnName="INTERACTION_TYPE">
+                <bypassValue name="COLUMN_WIDTH" value="192"/>
+                <bypassValue name="COLUMN_GRAVITY" value="6.0"/>
+            </columnView>
+            <columnView columnName="KappaScore">
+                <bypassValue name="COLUMN_WIDTH" value="147"/>
+                <bypassValue name="COLUMN_GRAVITY" value="7.0"/>
+            </columnView>
+            <columnView columnName="Regulates Source">
+                <bypassValue name="COLUMN_WIDTH" value="177"/>
+                <bypassValue name="COLUMN_GRAVITY" value="8.0"/>
+            </columnView>
+            <columnView columnName="Regulates Target">
+                <bypassValue name="COLUMN_WIDTH" value="175"/>
+                <bypassValue name="COLUMN_GRAVITY" value="9.0"/>
+            </columnView>
+            <columnView columnName="SIGNUM">
+                <bypassValue name="COLUMN_WIDTH" value="129"/>
+                <bypassValue name="COLUMN_GRAVITY" value="10.0"/>
+            </columnView>
+            <columnView columnName="ACTION_TYPE">
+                <bypassValue name="COLUMN_WIDTH" value="158"/>
+                <bypassValue name="COLUMN_GRAVITY" value="11.0"/>
+            </columnView>
+            <columnView columnName="ACTION_SCORE">
+                <bypassValue name="COLUMN_WIDTH" value="168"/>
+                <bypassValue name="COLUMN_GRAVITY" value="12.0"/>
+            </columnView>
+            <columnView columnName="ACTION_DIRECTION">
+                <bypassValue name="COLUMN_WIDTH" value="194"/>
+                <bypassValue name="COLUMN_GRAVITY" value="13.0"/>
+            </columnView>
+            <columnView columnName="edge-label">
+                <bypassValue name="COLUMN_WIDTH" value="139"/>
+                <bypassValue name="COLUMN_GRAVITY" value="14.0"/>
+            </columnView>
+            <columnView columnName="EVIDENCE_CODE">
+                <bypassValue name="COLUMN_WIDTH" value="176"/>
+                <bypassValue name="COLUMN_GRAVITY" value="15.0"/>
+            </columnView>
+            <columnView columnName="SOURCE_NAME">
+                <bypassValue name="COLUMN_WIDTH" value="167"/>
+                <bypassValue name="COLUMN_GRAVITY" value="16.0"/>
+            </columnView>
+            <columnView columnName="TARGET_NAME">
+                <bypassValue name="COLUMN_WIDTH" value="165"/>
+                <bypassValue name="COLUMN_GRAVITY" value="17.0"/>
+            </columnView>
+            <columnView columnName="INITIAL_SOURCE_NAME">
+                <bypassValue name="COLUMN_WIDTH" value="214"/>
+                <bypassValue name="COLUMN_GRAVITY" value="18.0"/>
+            </columnView>
+            <columnView columnName="INITIAL_TARGET_NAME">
+                <bypassValue name="COLUMN_WIDTH" value="212"/>
+                <bypassValue name="COLUMN_GRAVITY" value="19.0"/>
+            </columnView>
+            <columnView columnName="EDGE_UNIQUE_SUID">
+                <bypassValue name="COLUMN_WIDTH" value="198"/>
+                <bypassValue name="COLUMN_GRAVITY" value="20.0"/>
+            </columnView>
+            <columnView columnName="SOURCE_SYMBOL_NAME">
+                <bypassValue name="COLUMN_WIDTH" value="220"/>
+                <bypassValue name="COLUMN_GRAVITY" value="21.0"/>
+            </columnView>
+            <columnView columnName="TARGET_SYMBOL_NAME">
+                <bypassValue name="COLUMN_WIDTH" value="218"/>
+                <bypassValue name="COLUMN_GRAVITY" value="22.0"/>
+            </columnView>
+        </tableView>
+        <tableView table="2308-Hypothyroid+Network/LOCAL_ATTRS-org.cytoscape.model.CyEdge-Hypothyroid+Network+default+edge.cytable" rendererId="org.cytoscape.view.table.renderer" tableNamespace="USER">
+            <columnView columnName="SUID">
+                <bypassValue name="COLUMN_VISIBLE" value="false"/>
+                <bypassValue name="COLUMN_GRAVITY" value="0.0"/>
+            </columnView>
+            <columnView columnName="shared name">
+                <bypassValue name="COLUMN_WIDTH" value="154"/>
+                <bypassValue name="COLUMN_VISIBLE" value="true"/>
+                <bypassValue name="COLUMN_GRAVITY" value="2.0"/>
+            </columnView>
+            <columnView columnName="shared interaction">
+                <bypassValue name="COLUMN_WIDTH" value="182"/>
+                <bypassValue name="COLUMN_VISIBLE" value="true"/>
+                <bypassValue name="COLUMN_GRAVITY" value="3.0"/>
+            </columnView>
+            <columnView columnName="name">
+                <bypassValue name="COLUMN_WIDTH" value="94"/>
+                <bypassValue name="COLUMN_VISIBLE" value="true"/>
+                <bypassValue name="COLUMN_GRAVITY" value="4.0"/>
+            </columnView>
+            <columnView columnName="selected">
+                <bypassValue name="COLUMN_EDITABLE" value="false"/>
+                <bypassValue name="COLUMN_VISIBLE" value="false"/>
+                <bypassValue name="COLUMN_GRAVITY" value="1.0"/>
+            </columnView>
+            <columnView columnName="interaction">
+                <bypassValue name="COLUMN_WIDTH" value="122"/>
+                <bypassValue name="COLUMN_VISIBLE" value="true"/>
+                <bypassValue name="COLUMN_GRAVITY" value="5.0"/>
+            </columnView>
+        </tableView>
+        <tableView table="323219-Results+for+Analysis0/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis0+default+node.cytable" rendererId="org.cytoscape.view.table.renderer" tableNamespace="USER">
+            <columnView columnName="SUID">
+                <bypassValue name="COLUMN_VISIBLE" value="false"/>
+            </columnView>
+            <columnView columnName="shared name" styleTitle="0ae1a889-8224-40fb-a159-7f3ce4613d23">
+                <bypassValue name="COLUMN_WIDTH" value="154"/>
+                <bypassValue name="COLUMN_GRAVITY" value="1.0"/>
+            </columnView>
+            <columnView columnName="name">
+                <bypassValue name="COLUMN_WIDTH" value="94"/>
+                <bypassValue name="COLUMN_GRAVITY" value="2.0"/>
+            </columnView>
+            <columnView columnName="selected">
+                <bypassValue name="COLUMN_EDITABLE" value="false"/>
+                <bypassValue name="COLUMN_VISIBLE" value="false"/>
+            </columnView>
+            <columnView columnName="UNIQUE_ID">
+                <bypassValue name="COLUMN_WIDTH" value="145"/>
+                <bypassValue name="COLUMN_GRAVITY" value="3.0"/>
+            </columnView>
+            <columnView columnName="ENSEMBL_GENE_ID">
+                <bypassValue name="COLUMN_WIDTH" value="190"/>
+                <bypassValue name="COLUMN_GRAVITY" value="4.0"/>
+            </columnView>
+            <columnView columnName="UniProtKB_AC">
+                <bypassValue name="COLUMN_WIDTH" value="158"/>
+                <bypassValue name="COLUMN_GRAVITY" value="5.0"/>
+            </columnView>
+            <columnView columnName="Input Gene ID">
+                <bypassValue name="COLUMN_WIDTH" value="158"/>
+                <bypassValue name="COLUMN_GRAVITY" value="6.0"/>
+            </columnView>
+            <columnView columnName="GeneType">
+                <bypassValue name="COLUMN_WIDTH" value="137"/>
+                <bypassValue name="COLUMN_GRAVITY" value="7.0"/>
+            </columnView>
+            <columnView columnName="ID">
+                <bypassValue name="COLUMN_WIDTH" value="93"/>
+                <bypassValue name="COLUMN_GRAVITY" value="8.0"/>
+            </columnView>
+            <columnView columnName="Ontology Source">
+                <bypassValue name="COLUMN_WIDTH" value="172"/>
+                <bypassValue name="COLUMN_GRAVITY" value="9.0"/>
+            </columnView>
+            <columnView columnName="Term">
+                <bypassValue name="COLUMN_WIDTH" value="110"/>
+                <bypassValue name="COLUMN_GRAVITY" value="10.0"/>
+            </columnView>
+            <columnView columnName="GOLevels">
+                <bypassValue name="COLUMN_WIDTH" value="133"/>
+                <bypassValue name="COLUMN_GRAVITY" value="11.0"/>
+            </columnView>
+            <columnView columnName="GOGroups">
+                <bypassValue name="COLUMN_WIDTH" value="139"/>
+                <bypassValue name="COLUMN_GRAVITY" value="12.0"/>
+            </columnView>
+            <columnView columnName="Nr. Genes">
+                <bypassValue name="COLUMN_WIDTH" value="136"/>
+                <bypassValue name="COLUMN_GRAVITY" value="13.0"/>
+            </columnView>
+            <columnView columnName="% Associated Genes">
+                <bypassValue name="COLUMN_WIDTH" value="193"/>
+                <bypassValue name="COLUMN_GRAVITY" value="14.0"/>
+            </columnView>
+            <columnView columnName="Term PValue">
+                <bypassValue name="COLUMN_WIDTH" value="151"/>
+                <bypassValue name="COLUMN_GRAVITY" value="15.0"/>
+            </columnView>
+            <columnView columnName="Group PValue">
+                <bypassValue name="COLUMN_WIDTH" value="156"/>
+                <bypassValue name="COLUMN_GRAVITY" value="16.0"/>
+            </columnView>
+            <columnView columnName="Associated Genes Found">
+                <bypassValue name="COLUMN_WIDTH" value="217"/>
+                <bypassValue name="COLUMN_GRAVITY" value="17.0"/>
+            </columnView>
+            <columnView columnName="All Associated Genes">
+                <bypassValue name="COLUMN_WIDTH" value="197"/>
+                <bypassValue name="COLUMN_GRAVITY" value="18.0"/>
+            </columnView>
+            <columnView columnName="OverViewTerm">
+                <bypassValue name="COLUMN_WIDTH" value="163"/>
+                <bypassValue name="COLUMN_GRAVITY" value="19.0"/>
+            </columnView>
+            <columnView columnName="Cluster">
+                <bypassValue name="COLUMN_WIDTH" value="120"/>
+                <bypassValue name="COLUMN_GRAVITY" value="20.0"/>
+            </columnView>
+            <columnView columnName="Common Genes">
+                <bypassValue name="COLUMN_WIDTH" value="170"/>
+                <bypassValue name="COLUMN_GRAVITY" value="21.0"/>
+            </columnView>
+            <columnView columnName="%Genes Cluster #">
+                <bypassValue name="COLUMN_WIDTH" value="180"/>
+                <bypassValue name="COLUMN_GRAVITY" value="22.0"/>
+            </columnView>
+            <columnView columnName="% Common Gene">
+                <bypassValue name="COLUMN_WIDTH" value="177"/>
+                <bypassValue name="COLUMN_GRAVITY" value="23.0"/>
+            </columnView>
+            <columnView columnName="CEREBRAL_LOCALIZATION_INFO">
+                <bypassValue name="COLUMN_WIDTH" value="261"/>
+                <bypassValue name="COLUMN_GRAVITY" value="24.0"/>
+            </columnView>
+            <columnView columnName="CEREBRAL_LOCALIZATION_INFO_ALL">
+                <bypassValue name="COLUMN_WIDTH" value="286"/>
+                <bypassValue name="COLUMN_GRAVITY" value="25.0"/>
+            </columnView>
+            <columnView columnName="CEREBRAL_DOWNSTRAM_INFO">
+                <bypassValue name="COLUMN_WIDTH" value="254"/>
+                <bypassValue name="COLUMN_GRAVITY" value="26.0"/>
+            </columnView>
+            <columnView columnName="CEREBRAL_DOWNSTRAM_INFO_ALL">
+                <bypassValue name="COLUMN_WIDTH" value="279"/>
+                <bypassValue name="COLUMN_GRAVITY" value="27.0"/>
+            </columnView>
+            <columnView columnName="Term PValue Corrected with Bonferroni step down">
+                <bypassValue name="COLUMN_WIDTH" value="300"/>
+                <bypassValue name="COLUMN_GRAVITY" value="28.0"/>
+            </columnView>
+            <columnView columnName="Group PValue Corrected with Bonferroni step down">
+                <bypassValue name="COLUMN_WIDTH" value="300"/>
+                <bypassValue name="COLUMN_GRAVITY" value="29.0"/>
+            </columnView>
+        </tableView>
+        <tableView table="2308-Hypothyroid+Network/LOCAL_ATTRS-org.cytoscape.model.CyNetwork-Hypothyroid+Network+default+network.cytable" rendererId="org.cytoscape.view.table.renderer" tableNamespace="USER">
+            <columnView columnName="SUID">
+                <bypassValue name="COLUMN_VISIBLE" value="false"/>
+                <bypassValue name="COLUMN_GRAVITY" value="0.0"/>
+            </columnView>
+            <columnView columnName="shared name">
+                <bypassValue name="COLUMN_WIDTH" value="154"/>
+                <bypassValue name="COLUMN_VISIBLE" value="true"/>
+                <bypassValue name="COLUMN_GRAVITY" value="2.0"/>
+            </columnView>
+            <columnView columnName="name">
+                <bypassValue name="COLUMN_WIDTH" value="94"/>
+                <bypassValue name="COLUMN_VISIBLE" value="true"/>
+                <bypassValue name="COLUMN_GRAVITY" value="3.0"/>
+            </columnView>
+            <columnView columnName="selected">
+                <bypassValue name="COLUMN_EDITABLE" value="false"/>
+                <bypassValue name="COLUMN_VISIBLE" value="false"/>
+                <bypassValue name="COLUMN_GRAVITY" value="1.0"/>
+            </columnView>
+            <columnView columnName="__Annotations">
+                <bypassValue name="COLUMN_WIDTH" value="124"/>
+                <bypassValue name="COLUMN_VISIBLE" value="true"/>
+                <bypassValue name="COLUMN_GRAVITY" value="4.0"/>
+            </columnView>
+        </tableView>
+        <tableView table="2308-Hypothyroid+Network/LOCAL_ATTRS-org.cytoscape.model.CyNode-Hypothyroid+Network+default+node.cytable" rendererId="org.cytoscape.view.table.renderer" tableNamespace="USER">
+            <columnView columnName="SUID">
+                <bypassValue name="COLUMN_VISIBLE" value="false"/>
+                <bypassValue name="COLUMN_GRAVITY" value="0.0"/>
+            </columnView>
+            <columnView columnName="shared name" styleTitle="e293daed-7995-4449-8af4-3e1c61d6ec57">
+                <bypassValue name="COLUMN_WIDTH" value="154"/>
+                <bypassValue name="COLUMN_VISIBLE" value="true"/>
+                <bypassValue name="COLUMN_GRAVITY" value="2.0"/>
+            </columnView>
+            <columnView columnName="name">
+                <bypassValue name="COLUMN_WIDTH" value="94"/>
+                <bypassValue name="COLUMN_VISIBLE" value="true"/>
+                <bypassValue name="COLUMN_GRAVITY" value="5.0"/>
+            </columnView>
+            <columnView columnName="selected">
+                <bypassValue name="COLUMN_EDITABLE" value="false"/>
+                <bypassValue name="COLUMN_VISIBLE" value="false"/>
+                <bypassValue name="COLUMN_GRAVITY" value="1.0"/>
+            </columnView>
+            <columnView columnName="id">
+                <bypassValue name="COLUMN_WIDTH" value="75"/>
+                <bypassValue name="COLUMN_VISIBLE" value="true"/>
+                <bypassValue name="COLUMN_GRAVITY" value="3.0"/>
+            </columnView>
+            <columnView columnName="GeneSymbol">
+                <bypassValue name="COLUMN_WIDTH" value="136"/>
+                <bypassValue name="COLUMN_VISIBLE" value="true"/>
+                <bypassValue name="COLUMN_GRAVITY" value="4.0"/>
+                <bypassValue name="COLUMN_SELECTED" value="true"/>
+            </columnView>
+            <columnView columnName="Significance">
+                <bypassValue name="COLUMN_WIDTH" value="132"/>
+                <bypassValue name="COLUMN_VISIBLE" value="true"/>
+                <bypassValue name="COLUMN_GRAVITY" value="6.0"/>
+            </columnView>
+            <columnView columnName="log2FC">
+                <bypassValue name="COLUMN_WIDTH" value="103"/>
+                <bypassValue name="COLUMN_VISIBLE" value="true"/>
+                <bypassValue name="COLUMN_GRAVITY" value="7.0"/>
+            </columnView>
+        </tableView>
+        <tableView table="326467-Results+for+Analysis1/LOCAL_ATTRS-org.cytoscape.model.CyNode-Results+for+Analysis1+default+node.cytable" rendererId="org.cytoscape.view.table.renderer" tableNamespace="USER">
+            <columnView columnName="SUID">
+                <bypassValue name="COLUMN_VISIBLE" value="false"/>
+            </columnView>
+            <columnView columnName="shared name" styleTitle="35091b75-1b37-49a2-be33-09c00f6d9909">
+                <bypassValue name="COLUMN_WIDTH" value="154"/>
+                <bypassValue name="COLUMN_GRAVITY" value="1.0"/>
+            </columnView>
+            <columnView columnName="name">
+                <bypassValue name="COLUMN_WIDTH" value="94"/>
+                <bypassValue name="COLUMN_GRAVITY" value="2.0"/>
+            </columnView>
+            <columnView columnName="selected">
+                <bypassValue name="COLUMN_EDITABLE" value="false"/>
+                <bypassValue name="COLUMN_VISIBLE" value="false"/>
+            </columnView>
+            <columnView columnName="UNIQUE_ID">
+                <bypassValue name="COLUMN_WIDTH" value="145"/>
+                <bypassValue name="COLUMN_GRAVITY" value="3.0"/>
+            </columnView>
+            <columnView columnName="ENSEMBL_GENE_ID">
+                <bypassValue name="COLUMN_WIDTH" value="190"/>
+                <bypassValue name="COLUMN_GRAVITY" value="4.0"/>
+            </columnView>
+            <columnView columnName="UniProtKB_AC">
+                <bypassValue name="COLUMN_WIDTH" value="158"/>
+                <bypassValue name="COLUMN_GRAVITY" value="5.0"/>
+            </columnView>
+            <columnView columnName="Input Gene ID">
+                <bypassValue name="COLUMN_WIDTH" value="158"/>
+                <bypassValue name="COLUMN_GRAVITY" value="6.0"/>
+            </columnView>
+            <columnView columnName="GeneType">
+                <bypassValue name="COLUMN_WIDTH" value="137"/>
+                <bypassValue name="COLUMN_GRAVITY" value="7.0"/>
+            </columnView>
+            <columnView columnName="ID">
+                <bypassValue name="COLUMN_WIDTH" value="93"/>
+                <bypassValue name="COLUMN_GRAVITY" value="8.0"/>
+            </columnView>
+            <columnView columnName="Ontology Source">
+                <bypassValue name="COLUMN_WIDTH" value="172"/>
+                <bypassValue name="COLUMN_GRAVITY" value="9.0"/>
+            </columnView>
+            <columnView columnName="Term">
+                <bypassValue name="COLUMN_WIDTH" value="110"/>
+                <bypassValue name="COLUMN_GRAVITY" value="10.0"/>
+            </columnView>
+            <columnView columnName="GOLevels">
+                <bypassValue name="COLUMN_WIDTH" value="133"/>
+                <bypassValue name="COLUMN_GRAVITY" value="11.0"/>
+            </columnView>
+            <columnView columnName="GOGroups">
+                <bypassValue name="COLUMN_WIDTH" value="139"/>
+                <bypassValue name="COLUMN_GRAVITY" value="12.0"/>
+            </columnView>
+            <columnView columnName="Nr. Genes">
+                <bypassValue name="COLUMN_WIDTH" value="136"/>
+                <bypassValue name="COLUMN_GRAVITY" value="13.0"/>
+            </columnView>
+            <columnView columnName="% Associated Genes">
+                <bypassValue name="COLUMN_WIDTH" value="193"/>
+                <bypassValue name="COLUMN_GRAVITY" value="14.0"/>
+            </columnView>
+            <columnView columnName="Term PValue">
+                <bypassValue name="COLUMN_WIDTH" value="151"/>
+                <bypassValue name="COLUMN_GRAVITY" value="15.0"/>
+            </columnView>
+            <columnView columnName="Group PValue">
+                <bypassValue name="COLUMN_WIDTH" value="156"/>
+                <bypassValue name="COLUMN_GRAVITY" value="16.0"/>
+            </columnView>
+            <columnView columnName="Associated Genes Found">
+                <bypassValue name="COLUMN_WIDTH" value="217"/>
+                <bypassValue name="COLUMN_GRAVITY" value="17.0"/>
+            </columnView>
+            <columnView columnName="All Associated Genes">
+                <bypassValue name="COLUMN_WIDTH" value="197"/>
+                <bypassValue name="COLUMN_GRAVITY" value="18.0"/>
+            </columnView>
+            <columnView columnName="OverViewTerm">
+                <bypassValue name="COLUMN_WIDTH" value="163"/>
+                <bypassValue name="COLUMN_GRAVITY" value="19.0"/>
+            </columnView>
+            <columnView columnName="Cluster">
+                <bypassValue name="COLUMN_WIDTH" value="120"/>
+                <bypassValue name="COLUMN_GRAVITY" value="20.0"/>
+            </columnView>
+            <columnView columnName="Common Genes">
+                <bypassValue name="COLUMN_WIDTH" value="170"/>
+                <bypassValue name="COLUMN_GRAVITY" value="21.0"/>
+            </columnView>
+            <columnView columnName="%Genes Cluster #">
+                <bypassValue name="COLUMN_WIDTH" value="180"/>
+                <bypassValue name="COLUMN_GRAVITY" value="22.0"/>
+            </columnView>
+            <columnView columnName="% Common Gene">
+                <bypassValue name="COLUMN_WIDTH" value="177"/>
+                <bypassValue name="COLUMN_GRAVITY" value="23.0"/>
+            </columnView>
+            <columnView columnName="CEREBRAL_LOCALIZATION_INFO">
+                <bypassValue name="COLUMN_WIDTH" value="261"/>
+                <bypassValue name="COLUMN_GRAVITY" value="24.0"/>
+            </columnView>
+            <columnView columnName="CEREBRAL_LOCALIZATION_INFO_ALL">
+                <bypassValue name="COLUMN_WIDTH" value="286"/>
+                <bypassValue name="COLUMN_GRAVITY" value="25.0"/>
+            </columnView>
+            <columnView columnName="CEREBRAL_DOWNSTRAM_INFO">
+                <bypassValue name="COLUMN_WIDTH" value="254"/>
+                <bypassValue name="COLUMN_GRAVITY" value="26.0"/>
+            </columnView>
+            <columnView columnName="CEREBRAL_DOWNSTRAM_INFO_ALL">
+                <bypassValue name="COLUMN_WIDTH" value="279"/>
+                <bypassValue name="COLUMN_GRAVITY" value="27.0"/>
+            </columnView>
+            <columnView columnName="Term PValue Corrected with Bonferroni step down">
+                <bypassValue name="COLUMN_WIDTH" value="300"/>
+                <bypassValue name="COLUMN_GRAVITY" value="28.0"/>
+            </columnView>
+            <columnView columnName="Group PValue Corrected with Bonferroni step down">
+                <bypassValue name="COLUMN_WIDTH" value="300"/>
+                <bypassValue name="COLUMN_GRAVITY" value="29.0"/>
+            </columnView>
+            <columnView columnName="Genes Cluster #1">
+                <bypassValue name="COLUMN_WIDTH" value="177"/>
+                <bypassValue name="COLUMN_GRAVITY" value="30.0"/>
+            </columnView>
+            <columnView columnName="%Genes Cluster #1">
+                <bypassValue name="COLUMN_WIDTH" value="187"/>
+                <bypassValue name="COLUMN_GRAVITY" value="31.0"/>
+            </columnView>
+            <columnView columnName="Genes Cluster #2">
+                <bypassValue name="COLUMN_WIDTH" value="177"/>
+                <bypassValue name="COLUMN_GRAVITY" value="32.0"/>
+            </columnView>
+            <columnView columnName="%Genes Cluster #2">
+                <bypassValue name="COLUMN_WIDTH" value="187"/>
+                <bypassValue name="COLUMN_GRAVITY" value="33.0"/>
+            </columnView>
+        </tableView>
+    </tableViews>
+</cyTables>
