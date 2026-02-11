@@ -81,9 +81,5 @@
       "scheme": "url"
     }
   ],
-  "grants": [
-    {
-      "id": "NWO funding for VHP4Safety project"
-    }
-  ]
+  "notes": "This research was conducted as part of the VHP4Safety project, which has received funding from the Dutch Research Council (NWO)."
 }
