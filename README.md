@@ -1,7 +1,7 @@
 # Thyroid AOP Omics Analysis
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18613545.svg)](https://doi.org/10.5281/zenodo.18613545)
 
 Differential gene expression analysis of thyroid hormone (T3) effects for Adverse Outcome Pathway (AOP) research. This study compares hypothyroid (no T3 vs control) and hyperthyroid (high T3 vs control) conditions to identify gene regulation patterns relevant to thyroid hormone disruption.
 
@@ -111,7 +111,7 @@ ClueGO pathway enrichment was performed using the Cytoscape GUI. See [`cluego/RE
 
 If you use this analysis code or data, please cite the Zenodo archive:
 
-> Martens M, Dierichs NTOM, Pennings JLA, Piersma AH, de Leeuw VC, van Oostrom CTM, Malyar C, Kienhuis AS, Evelo CT, Willighagen EL, Hessel EVS. (2026). Thyroid AOP Omics Analysis (Version 1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.XXXXXXX
+> Martens M, Dierichs NTOM, Pennings JLA, Piersma AH, de Leeuw VC, van Oostrom CTM, Malyar C, Kienhuis AS, Evelo CT, Willighagen EL, Hessel EVS. (2026). Thyroid AOP Omics Analysis (Version 1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.18613545
 
 ### Citing the Manuscript
 
