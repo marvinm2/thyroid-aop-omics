@@ -1,0 +1,89 @@
+{
+  "title": "Integrating transcriptomics and molecular AOPs to identify T3-dependent regulation of neuronal development in the human neural progenitor test",
+  "description": "Differential gene expression analysis of thyroid hormone (T3) effects for Adverse Outcome Pathway (AOP) research. This study compares hypothyroid (no T3 vs control) and hyperthyroid (high T3 vs control) conditions to identify gene regulation patterns relevant to thyroid hormone disruption.",
+  "creators": [
+    {
+      "name": "Martens, Marvin",
+      "orcid": "0000-0003-2230-0840",
+      "affiliation": "Maastricht University"
+    },
+    {
+      "name": "Dierichs, Nathalie T.O.M.",
+      "orcid": "0009-0000-5074-6239",
+      "affiliation": "RIVM & Erasmus MC"
+    },
+    {
+      "name": "Pennings, Jeroen L.A.",
+      "orcid": "0000-0002-9188-6358",
+      "affiliation": "RIVM"
+    },
+    {
+      "name": "Piersma, Aldert H.",
+      "affiliation": "RIVM & Utrecht University"
+    },
+    {
+      "name": "de Leeuw, Victoria C.",
+      "orcid": "0000-0002-3239-2227",
+      "affiliation": "RIVM"
+    },
+    {
+      "name": "van Oostrom, Conny T.M.",
+      "affiliation": "RIVM"
+    },
+    {
+      "name": "Malyar, Celina",
+      "orcid": "0009-0005-9197-4107",
+      "affiliation": "Maastricht University"
+    },
+    {
+      "name": "Kienhuis, Anne S.",
+      "orcid": "0000-0002-6465-4498",
+      "affiliation": "RIVM & Utrecht University"
+    },
+    {
+      "name": "Evelo, Chris T.",
+      "orcid": "0000-0002-5301-3142",
+      "affiliation": "Maastricht University"
+    },
+    {
+      "name": "Willighagen, Egon L.",
+      "orcid": "0000-0001-7542-0286",
+      "affiliation": "Maastricht University"
+    },
+    {
+      "name": "Hessel, Ellen V.S.",
+      "orcid": "0000-0003-3960-7523",
+      "affiliation": "RIVM"
+    }
+  ],
+  "keywords": [
+    "thyroid hormone",
+    "adverse outcome pathway",
+    "transcriptomics",
+    "differential gene expression",
+    "neurodevelopment",
+    "T3",
+    "hypothyroid",
+    "hyperthyroid",
+    "bioinformatics"
+  ],
+  "license": "CC-BY-4.0",
+  "upload_type": "dataset",
+  "access_right": "open",
+  "communities": [
+    {"identifier": "vhp4safety"}
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://www.ebi.ac.uk/biostudies/vhp4safety/studies/S-VHPS20",
+      "relation": "isSupplementedBy",
+      "resource_type": "dataset",
+      "scheme": "url"
+    }
+  ],
+  "grants": [
+    {
+      "id": "NWO funding for VHP4Safety project"
+    }
+  ]
+}
