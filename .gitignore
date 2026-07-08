@@ -53,3 +53,25 @@ logs/
 
 # Paper files
 /paper/
+
+# Raw data files (available from EBI BioStudies S-VHPS20) — keep only the .md pointer docs
+data/raw/*
+!data/raw/*.md
+
+# Supplementary manuscript figures (provided with the manuscript; see commit 95b9de7)
+figures/supplementary/
+
+# Revision-only analysis code and QC outputs (reviewer response)
+/scripts/
+data/results/rnaseq_*
+data/results/TH_responsiveness_table.csv
+
+# Executed notebook copies (heavy embedded outputs)
+*_executed.ipynb
+
+# Alternate figure renderings not selected
+figures/main/combined_direction_plot_hybrid.png
+figures/main/combined_direction_plot_selective.png
+
+# LibreOffice lock files
+.~lock.*#
